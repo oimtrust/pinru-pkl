@@ -52,7 +52,7 @@
             <form class="col s12 m12" action="" method="post">
                 <div class="row">
                     <div class="input-field col s12">
-                        <input type="text" name="nama_faculty" id="nama_faculty" class="validate" autofocus>
+                        <input type="text" name="nama_fakultas" id="nama_faculty" class="validate" autofocus>
                         <label for="nama_faculty">Nama Fakultas</label>
                     </div>
                 </div>

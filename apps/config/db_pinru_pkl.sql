@@ -3,8 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jan 25, 2018 at 01:28 PM
--- Server version: 5.7.20-0ubuntu0.16.04.1
+-- Generation Time: Jan 25, 2018 at 05:14 PM
+-- Server version: 5.7.21-0ubuntu0.16.04.1
 -- PHP Version: 7.0.22-0ubuntu0.16.04.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -21,6 +21,27 @@ SET time_zone = "+00:00";
 --
 -- Database: `db_pinru_pkl`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_admin`
+--
+
+CREATE TABLE `tbl_admin` (
+  `id_admin` int(11) NOT NULL,
+  `username` varchar(100) DEFAULT NULL,
+  `password` text,
+  `created_at` datetime DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_admin`
+--
+
+INSERT INTO `tbl_admin` (`id_admin`, `username`, `password`, `created_at`, `updated_at`) VALUES
+(1, 'oimtrust', 'ac43724f16e9241d990427ab7c8f4228', '2018-01-25 17:13:14', '2018-01-25 17:13:14');
 
 -- --------------------------------------------------------
 
@@ -103,6 +124,12 @@ CREATE TABLE `tbl_user` (
 --
 
 --
+-- Indexes for table `tbl_admin`
+--
+ALTER TABLE `tbl_admin`
+  ADD PRIMARY KEY (`id_admin`);
+
+--
 -- Indexes for table `tbl_fakultas`
 --
 ALTER TABLE `tbl_fakultas`
@@ -135,6 +162,12 @@ ALTER TABLE `tbl_user`
 --
 -- AUTO_INCREMENT for dumped tables
 --
+
+--
+-- AUTO_INCREMENT for table `tbl_admin`
+--
+ALTER TABLE `tbl_admin`
+  MODIFY `id_admin` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `tbl_fakultas`

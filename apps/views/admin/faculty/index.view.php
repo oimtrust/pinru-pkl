@@ -94,8 +94,8 @@
                 <li>
                 <div class="collapsible-header"><?php echo $data->nama_fakultas; ?></div>
                 <div class="collapsible-body">
-                    <a href="<?php $baseUrl; ?>admin.php?page=home&action=#-update&update_id=<?php echo $data->id_acara; ?>" class="btn-floating btn-small waves-effect waves-light blue"><i class="mdi mdi-pencil"></i></a>
-                    <a href="<?php $baseUrl; ?>admin.php?page=home&action=#-delete&delete_id=<?php echo $data->id_acara; ?>" class="btn-floating btn-delete btn-small waves-effect waves-light red"><i class="mdi mdi-delete-empty"></i></a>
+                    <a href="<?php $baseUrl; ?>admin.php?page=home&action=faculty-update&update_id=<?php echo $data->id_fakultas; ?>" class="btn-floating btn-small waves-effect waves-light blue tippy" title="Ubah"><i class="mdi mdi-pencil"></i></a>
+                    <a href="<?php $baseUrl; ?>admin.php?page=home&action=faculty-delete&delete_id=<?php echo $data->id_fakultas; ?>" class="btn-floating btn-delete btn-small waves-effect waves-light red tippy" title="Hapus"><i class="mdi mdi-delete-empty"></i></a>
                 </div>
                 <?php
 
@@ -114,6 +114,14 @@
 
 <script>
     $(document).ready(function(){
+        tippy('.tippy', {
+            placement: 'right',
+            animation: 'scale',
+            theme: 'light',
+            duration: 1000,
+            arrow: true
+            })
+
         $('.collapsible').collapsible();
 
         $('.alert_close').click(function(){
@@ -125,8 +133,8 @@
             var getLink = $(this).attr('href');
 
             swal({
-                title: 'Hapus Acara',
-                text: 'Loe Yakin Broo?',
+                title: 'Hapus Data Fakultas',
+                text: 'Apakah anda yakin?',
                 html: true,
                 confirmButtonColor: '#d9534f',
                 showCancelButton: true,

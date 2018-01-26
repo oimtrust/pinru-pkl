@@ -23,7 +23,7 @@
                     </p>
                 </div>
                 <div class="card-action">
-                    <a href="<?php $baseUrl; ?>index.php?page=#" class="white-text"><i class="mdi mdi-account-search"></i> Lihat</a>
+                    <a href="<?php $baseUrl; ?>admin.php?page=home&action=prody" class="white-text"><i class="mdi mdi-account-search"></i> Lihat</a>
                 </div>
             </div>
         </div>
@@ -37,7 +37,7 @@
                     </p>
                 </div>
                 <div class="card-action">
-                    <a href="<?php $baseUrl; ?>index.php?page=#" class="white-text"><i class="mdi mdi-account-search"></i> Lihat</a>
+                    <a href="<?php $baseUrl; ?>admin.php?page=home&action=room" class="white-text"><i class="mdi mdi-account-search"></i> Lihat</a>
                 </div>
             </div>
         </div>
