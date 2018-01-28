@@ -38,4 +38,31 @@ class AdminMastering extends Connection
     {
         $result = $this->db->query("INSERT INTO tbl_ruang (nama_ruang) VALUES ('{$nama_ruang}')");
     }
+
+    public function updateRoom($nama_ruang, $id_ruang)
+    {
+        $result = $this->db->query("UPDATE tbl_ruang SET nama_ruang = '{$nama_ruang}' WHERE id_ruang = '{$id_ruang}'");
+    }
+
+    public function deleteRoom($id_ruang)
+    {
+        $result = $this->db->query("DELETE FROM tbl_ruang WHERE id_ruang = '{$id_ruang}'");
+    }
+
+    public function createUser($id_user, $password, $nama_user, $id_fakultas, $id_prodi, $alamat, $status)
+    {
+        $result = $this->db->query("INSERT INTO tbl_user(id_user, `password`, nama_user, id_fakultas, id_prodi, alamat, `status`)
+        VALUES('{$id_user}', '{$password}', '{$nama_user}', '{$id_fakultas}', '{$id_prodi}', '{$alamat}', '{$status}')");
+    }
+
+    public function updateUser($password, $nama_user, $id_fakultas, $id_prodi, $alamat, $status, $id_user)
+    {
+        $result = $this->db->query("UPDATE tbl_user SET `password` = '{$password}', nama_user = '{$nama_user}',
+        id_fakultas = '{$id_fakultas}', id_prodi = '{$id_prodi}', alamat = '{$alamat}', `status` = '{$status}' WHERE id_user = '{$id_user}'");
+    }
+
+    public function deleteUser($id_user)
+    {
+        $result = $this->db->query("DELETE FROM tbl_user WHERE id_user = '{$id_user}'");
+    }
 }

@@ -50,16 +50,16 @@
             ?>
             <!-- End Alert box -->
             <form class="col s12 m12" method="post">
-                <input type="text" name="id_ruang" value="">
+                <input type="hidden" name="id_ruang" value="<?php echo $detailRoom->id_ruang; ?>">
                 <div class="row">
                     <div class="input-field col s12">
-                        <input type="text" name="nama_ruang" id="nama_ruang" class="validate" autofocus>
+                        <input type="text" name="nama_ruang" id="nama_ruang" value="<?php echo $detailRoom->nama_ruang;?>" class="validate" autofocus>
                         <label for="nama_ruang">Nama Ruang</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col s12">
-                        <button  type="submit" name="btn_save" class="waves-effect waves-light btn col s12 blue">Simpan</button>
+                        <button  type="submit" name="btn_update" class="waves-effect waves-light btn col s12 blue">Ubah</button>
                     </div>
                 </div>
                 <div class="row">

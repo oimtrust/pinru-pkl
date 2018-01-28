@@ -24,10 +24,28 @@ $admin = $connect->execute("SELECT * FROM tbl_admin WHERE username = '{$admin_lo
 
 if (isset($_GET['update_id']) && !empty($_GET['update_id'])) {
     $id_room = $_GET['update_id'];
-    $stmt = $connect->execute("SELECT * FROM tbl_ruang WHERE id_ruang = '{$id_ruang}'");
+    $stmt = $connect->execute("SELECT * FROM tbl_ruang WHERE id_ruang = '{$id_room}'");
     $detailRoom = $stmt->fetch_object();
 } else {
-    $connect->redirect($baseUrl . 'admin.php?page=home&action=room');
+    $connect->redirect($baseUrl . 'admin.php?page=home&action=room&error');
+}
+
+if (isset($_POST['btn_update'])) {
+    $id_ruang   = $_POST['id_ruang'];
+    $nama_ruang = strip_tags($_POST['nama_ruang']);
+
+    if ($nama_ruang == '') {
+        $error[]    = "Nama ruang tidak boleh kosong!";
+    } else {
+        try {
+            if ($adminMastering->updateRoom($nama_ruang, $id_ruang)) {
+                
+            }
+            $adminMastering->redirect($baseUrl.'admin.php?page=home&action=room&updated');
+        } catch(Exception $e) {
+            echo $e->getMessage();
+        }
+    }
 }
 
 include "apps/views/layouts/header.view.php";

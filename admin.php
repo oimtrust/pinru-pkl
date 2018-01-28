@@ -48,6 +48,20 @@ switch ($page) {
             require 'admin/room/index.php';
         } elseif ($action == 'room-create') {
             require 'admin/room/create.php';
+        } elseif ($action == 'room-update') {
+            require 'admin/room/update.php';
+        } elseif ($action == 'room-delete') {
+            require 'admin/room/delete.php';
+        } elseif ($action == 'user') {
+            require 'admin/user/index.php';
+        } elseif ($action == 'user-select-prodi') {
+            require 'admin/user/selectbox-prodi.php';
+        } elseif ($action == 'user-create') {
+            require 'admin/user/create.php';
+        } elseif ($action == 'user-update') {
+            require 'admin/user/update.php';
+        } elseif ($action == 'user-delete') {
+            require 'admin/user/delete.php';
         } else {
             require 'error/404.php';
         }

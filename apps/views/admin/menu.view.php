@@ -4,7 +4,7 @@
             <a href="#" data-activates="nav-mobile" class="button-collapse show-on-large"><i class="mdi mdi-menu"></i></a>
             <a href="#" class="dropdown-button right" data-activates="menu-right"><i class="right mdi mdi-dots-vertical"></i></a>
             <ul id='menu-right' class='dropdown-content'>
-                <li><a href="<?php $baseUrl; ?>index.php?page=#">Profil</a></li>
+                <!-- <li><a href="<?php //$baseUrl; ?>index.php?page=#">Profil</a></li> -->
                 <li><a href="<?php $baseUrl; ?>admin.php?page=home&action=logout">Keluar</a></li>
             </ul>
         </div>
@@ -27,7 +27,7 @@
     <li><a href="<?php $baseUrl; ?>admin.php?page=home&action=faculty" class="waves-effect"><i class="mdi mdi-bank small blue-text"></i>Fakultas</a></li>
     <li><a href="<?php $baseUrl; ?>admin.php?page=home&action=prody" class="waves-effect"><i class="mdi mdi-home-modern small purple-text"></i>Prodi</a></li>
     <li><a href="<?php $baseUrl; ?>admin.php?page=home&action=room" class="waves-effect"><i class="mdi mdi-sofa small green-text"></i>Ruang</a></li>
-    <li><a href="<?php $baseUrl; ?>admin.php?page=#" class="waves-effect"><i class="mdi mdi-account-circle small amber-text"></i>User</a></li>
+    <li><a href="<?php $baseUrl; ?>admin.php?page=home&action=user" class="waves-effect"><i class="mdi mdi-account-circle small amber-text"></i>User</a></li>
 
 </ul>
 
