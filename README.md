@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+# Aplikasi Peminjaman Ruang
 
-You can use the [editor on GitHub](https://github.com/oimtrust/pinru-pkl/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### Instalasi
+1. Download source code aplikasi ini atau di clone dengan cara :
+```bash
+git clone https://github.com/oimtrust/pinru-pkl.git
 ```
+1. Lalu sesuaikan source code dibawah ini untuk menunjukkan link url aplikasi anda :
+Letak file pada `pinru-pkl/apps/config/app.php`
+```php
+if (!defined('RESTRICTED')) exit('No direct script access allowed!');
+/** @var HOST_URL $baseUrl */
+$baseUrl = 'http://localhost/pinru-pkl/'; // <-- Sesuaikan dengan url kalian
+```
+1. Selanjutnya aturlah database pada file php berikut di sesuaikan dengan database kalian, file terletak pada `pinru-pkl/apps/config/database.php` dan jangan lupa import file database ke dalam phpmyadmin atau manajamen database lain yang anda punya (Misal : dbninja) yang terletak pada `pinru-pkl/apps/config/db_pinru_pkl.sql`. untuk source code file `database.php` seperti ini :
+```php
+define('DB_SERVER', 'localhost');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', 'rahasia');
+define('DB_DATABASE', 'db_pinru_pkl');
+```
+1. Lalu jalankan aplikasi anda. Untuk masuk ke sistem admin bukalah link `http://localhost/pinru-pkl/admin.php` dan untuk username dan password :
+`username : oimtrust, password : rahasia`
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/oimtrust/pinru-pkl/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Lisensi
+Aplikasi ini berlisensi MIT dan Kredit dimiliki hak penuh oleh Fathur Rohim ([oimtrust.com](http://oimtrust.com/ "oimtrust.com"))
