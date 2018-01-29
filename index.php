@@ -24,6 +24,20 @@ switch ($page) {
         }
         break;
     
+    case 'staff':
+        if ($action == 'login') {
+            require 'staff/auth/login.php';
+        } elseif ($action == 'logout') {
+            require 'staff/auth/logout.php';
+        } elseif ($action == 'home') {
+            require 'staff/index.php';
+        } elseif ($action == 'history') {
+            require 'staff/history.php';
+        } else {
+            require 'error/404.php';
+        }
+        break;
+    
     default:
         require 'home.php';
         break;

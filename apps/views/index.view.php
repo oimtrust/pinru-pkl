@@ -13,9 +13,9 @@
                 </tr>
 
                 <tr>
-                    <td  bgcolor="E8E8E8"><a href="login-dosen.php">DOSEN/STAFF</a></td>
+                    <td><a href="<?php $baseUrl;?>index.php?page=staff&action=login" class="btn btn-flat waves-purple wafes-effect">DOSEN/STAFF</a></td>
                     <td >&nbsp;</td>
-                    <td  bgcolor="E8E8E8"><a href="login-approve.php">APPROVAL</a></td>
+                    <td><a href="login-approve.php" class="btn btn-flat waves-purple wafes-effect">APPROVAL</a></td>
                 </tr>
             </table>
         </fieldset>

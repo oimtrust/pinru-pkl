@@ -5,7 +5,7 @@
             <a href="#" class="dropdown-button right" data-activates="menu-right"><i class="right mdi mdi-dots-vertical"></i></a>
             <ul id='menu-right' class='dropdown-content'>
                 <!-- <li><a href="<?php //$baseUrl; ?>index.php?page=#">Profil</a></li> -->
-                <li><a href="<?php $baseUrl; ?>admin.php?page=home&action=logout">Keluar</a></li>
+                <li><a href="<?php $baseUrl; ?>index.php?page=staff&action=logout">Keluar</a></li>
             </ul>
         </div>
     </nav>
@@ -16,19 +16,16 @@
             <div class="background">
                 <img class="responsive-img" src="<?php $baseUrl; ?>public/img/laptop.jpg">
             </div>
-            <a href="<?php $baseUrl; ?>index.php"><img class="circle" src="<?php $baseUrl; ?>public/img/logo.png"></a>
+            <a href="#"><img class="circle" src="<?php $baseUrl; ?>public/img/logo.png"></a>
             <span class="card-title  orange-text text-darken-4">
                 Peminjaman Ruang
             </span>
         </div>
     </li>
-    <li><a href="<?php $baseUrl; ?>admin.php" class="waves-effect"><i class="mdi mdi-view-dashboard small red-text"></i>Dashboard</a></li>
+    <li><a href="<?php $baseUrl; ?>index.php?page=staff&action=home" class="waves-effect"><i class="mdi mdi-view-dashboard small red-text"></i>Dashboard</a></li>
     <li><div class="divider"></div></li>
-    <li><a href="<?php $baseUrl; ?>admin.php?page=home&action=faculty" class="waves-effect"><i class="mdi mdi-bank small blue-text"></i>Fakultas</a></li>
-    <li><a href="<?php $baseUrl; ?>admin.php?page=home&action=prody" class="waves-effect"><i class="mdi mdi-home-modern small purple-text"></i>Prodi</a></li>
-    <li><a href="<?php $baseUrl; ?>admin.php?page=home&action=room" class="waves-effect"><i class="mdi mdi-sofa small green-text"></i>Ruang</a></li>
-    <li><a href="<?php $baseUrl; ?>admin.php?page=home&action=user" class="waves-effect"><i class="mdi mdi-account-circle small amber-text"></i>User</a></li>
-    <li><a href="<?php $baseUrl; ?>admin.php?page=home&action=admins" class="waves-effect"><i class="mdi mdi-account-star small pink-text"></i>Admin</a></li>
+    <li><a href="<?php $baseUrl; ?>index.php?page=staff&action=home" class="waves-effect"><i class="mdi mdi-sofa small blue-text"></i>Pinjam Ruang</a></li>
+    <li><a href="<?php $baseUrl; ?>index.php?page=staff&action=history" class="waves-effect"><i class="mdi mdi-history small purple-text"></i>Daftar Riwayat</a></li>
 
 </ul>
 

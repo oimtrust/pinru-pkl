@@ -55,5 +55,18 @@
                 </div>
             </div>
         </div>
+        <div class="col s12">
+            <div class="card pink">
+                <div class="card-content white-text">
+                    <span class="card-title"> <?php echo "32"; ?> Admin</span>
+                    <p>
+                        <i class="mdi mdi-account-star large"></i>
+                    </p>
+                </div>
+                <div class="card-action">
+                    <a href="<?php $baseUrl; ?>admin.php?page=home&action=admins" class="white-text"><i class="mdi mdi-account-search"></i> Lihat</a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
