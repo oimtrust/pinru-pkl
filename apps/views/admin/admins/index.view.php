@@ -177,7 +177,8 @@
                                     <?php
                                 }else {
                                     ?>
-                                    <a href="<?php $baseUrl; ?>admin.php?page=home&action=admins-delete&delete_id=<?php echo $data->id_admin; ?>" class="btn btn-floating btn-delete red darken-3 waves-effect waves-light tippy" title="Hapus"><i class="mdi mdi-delete-empty"></i> </a>                                    
+                                    <a href="<?php $baseUrl; ?>admin.php?page=home&action=admins-update&update_id=<?php echo $data->id_admin; ?>" class="btn btn-floating amber darken-3 waves-effect waves-light tippy" title="Ubah"><i class="mdi mdi-pencil"></i> </a>                                    
+                                    <a href="<?php $baseUrl; ?>admin.php?page=home&action=admins-delete&delete_id=<?php echo $data->id_admin; ?>" class="btn btn-floating btn-delete red darken-3 waves-effect waves-light tippy" title="Hapus"><i class="mdi mdi-delete-empty"></i></a>                                    
                                     <?php
                                 }
                                 ?>

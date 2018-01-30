@@ -68,6 +68,8 @@ switch ($page) {
             require 'admin/admins/create.php';
         } elseif ($action == 'admins-update') {
             require 'admin/admins/update.php';
+        } elseif ($action == 'admins-delete') {
+            require 'admin/admins/delete.php';
         } else {
             require 'error/404.php';
         }

@@ -75,4 +75,9 @@ class AdminMastering extends Connection
     {
         $result = $this->db->query("UPDATE tbl_admin SET username = '{$username}', `password` = '{$password}', `status` = '{$status}' WHERE id_admin = '{$id_admin}'");
     }
+
+    public function deleteAdmins($id_admin)
+    {
+        $result = $this->db->query("DELETE FROM tbl_admin WHERE id_admin = '{$id_admin}'");
+    }
 }

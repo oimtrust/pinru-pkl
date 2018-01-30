@@ -30,7 +30,7 @@ if (isset($_POST['btn_login'])) {
         }
         else {
             $login = $check->fetch_object();
-            if ($password == $login->password) {
+            if ($password == $login->password && $login->status == 'admin') {
                 $_SESSION['username'] = $login->username;
                 $connect->redirect($baseUrl.'admin.php');
                 exit;
