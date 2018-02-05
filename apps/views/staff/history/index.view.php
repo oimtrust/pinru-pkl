@@ -112,6 +112,7 @@
                     <th>NIDN/NIK</th>
                     <th>Nama</th>
                     <th>Ruang</th>
+                    <th>Hari</th>
                     <th>Tanggal Pinjam</th>
                     <th>Jam Awal</th>
                     <th>Jam Akhir</th>
@@ -137,6 +138,8 @@
                         user.nama_user,
                         pinjam.id_ruang,
                         ruang.nama_ruang,
+                        pinjam.id_hari,
+                        hari.nama_hari,
                         pinjam.tgl_pinjam,
                         pinjam.jam_awal,
                         pinjam.jam_akhir,
@@ -146,6 +149,7 @@
                         tbl_peminjaman AS pinjam 
                         LEFT JOIN tbl_user AS user ON pinjam.id_user = user.id_user
                         LEFT JOIN tbl_ruang AS ruang ON pinjam.id_ruang = ruang.id_ruang
+                        LEFT JOIN tbl_hari AS hari ON pinjam.id_hari = hari.id_hari
                         ORDER BY pinjam.updated_at DESC LIMIT $position, $limit");
 
                 $no = 1 + $position;
@@ -162,6 +166,8 @@
                                     user.nama_user,
                                     pinjam.id_ruang,
                                     ruang.nama_ruang,
+                                    pinjam.id_hari,
+                                    hari.nama_hari,
                                     pinjam.tgl_pinjam,
                                     pinjam.jam_awal,
                                     pinjam.jam_akhir,
@@ -171,6 +177,7 @@
                                     tbl_peminjaman AS pinjam 
                                     LEFT JOIN tbl_user AS user ON pinjam.id_user = user.id_user
                                     LEFT JOIN tbl_ruang AS ruang ON pinjam.id_ruang = ruang.id_ruang
+                                    LEFT JOIN tbl_hari AS hari ON pinjam.id_hari = hari.id_hari
                                     WHERE pinjam.tgl_pinjam LIKE '%$date%'");
                         } else {
                             $query = $connect->execute("SELECT 
@@ -178,6 +185,8 @@
                                     user.nama_user,
                                     pinjam.id_ruang,
                                     ruang.nama_ruang,
+                                    pinjam.id_hari,
+                                    hari.nama_hari,
                                     pinjam.tgl_pinjam,
                                     pinjam.jam_awal,
                                     pinjam.jam_akhir,
@@ -187,6 +196,7 @@
                                     tbl_peminjaman AS pinjam 
                                     LEFT JOIN tbl_user AS user ON pinjam.id_user = user.id_user
                                     LEFT JOIN tbl_ruang AS ruang ON pinjam.id_ruang = ruang.id_ruang
+                                    LEFT JOIN tbl_hari AS hari ON pinjam.id_hari = hari.id_hari
                                     ORDER BY pinjam.updated_at DESC LIMIT $position, $limit");
                         }
                     }
@@ -196,6 +206,8 @@
                             user.nama_user,
                             pinjam.id_ruang,
                             ruang.nama_ruang,
+                            pinjam.id_hari,
+                            hari.nama_hari,
                             pinjam.tgl_pinjam,
                             pinjam.jam_awal,
                             pinjam.jam_akhir,
@@ -205,6 +217,7 @@
                             tbl_peminjaman AS pinjam 
                             LEFT JOIN tbl_user AS user ON pinjam.id_user = user.id_user
                             LEFT JOIN tbl_ruang AS ruang ON pinjam.id_ruang = ruang.id_ruang
+                            LEFT JOIN tbl_hari AS hari ON pinjam.id_hari = hari.id_hari
                             ORDER BY pinjam.updated_at DESC LIMIT $position, $limit");
                 }
 
@@ -229,6 +242,7 @@
                             <td><?php echo $data->id_user; ?></td>
                             <td><?php echo $data->nama_user; ?></td>
                             <td><?php echo $data->nama_ruang; ?></td>
+                            <td><?php echo $data->nama_hari; ?></td>
                             <td><?php echo $data->tgl_pinjam; ?></td>
                             <td><?php echo $data->jam_awal; ?></td>
                             <td><?php echo $data->jam_akhir; ?></td>
@@ -252,6 +266,8 @@
                         user.nama_user,
                         pinjam.id_ruang,
                         ruang.nama_ruang,
+                        pinjam.id_hari,
+                        hari.nama_hari,
                         pinjam.tgl_pinjam,
                         pinjam.jam_awal,
                         pinjam.jam_akhir,
@@ -261,6 +277,7 @@
                         tbl_peminjaman AS pinjam 
                         LEFT JOIN tbl_user AS user ON pinjam.id_user = user.id_user
                         LEFT JOIN tbl_ruang AS ruang ON pinjam.id_ruang = ruang.id_ruang
+                        LEFT JOIN tbl_hari AS hari ON pinjam.id_hari = hari.id_hari
                         ORDER BY pinjam.updated_at DESC");
             $rows = $amount_data->num_rows;
 

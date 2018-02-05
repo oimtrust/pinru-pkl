@@ -105,6 +105,28 @@
 
                 <div class="row">
                     <div class="input-field col s12">
+                        <?php
+                        $id_hari = $connect->execute("SELECT * FROM tbl_hari WHERE id_hari ORDER BY id_hari ASC");
+                        $row_count = $id_hari->num_rows;
+                        ?>
+                        <select name="id_hari" class="id_hari">
+                            <option value="" disabled="disabled" selected>Pilih Hari</option>
+                            <?php
+                            if ($row_count > 0) {
+                                while ($row = $id_hari->fetch_object()) {
+                                    echo '<option value="' . $row->id_hari . '">' . $row->nama_hari . '</option>';
+                                }
+                            } else {
+                                echo '<option value="">Hari tidak tersedia</option>';
+                            }
+                            ?>
+                        </select>
+                        <label>Pilih Hari</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s12">
                         <input type="date" class="datepicker" name="tgl_pinjam" id="tgl_pinjam">
                         <label for="tgl_pinjam">Tanggal Pinjam</label>
                     </div>

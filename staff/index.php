@@ -23,6 +23,7 @@ $rowUser = $userQuery->fetch_object();
 if (isset($_POST['btn_borrow'])) {
     $id_user        = $_POST['id_user'];
     $id_ruang       = $_POST['id_ruang'];
+    $id_hari        = $_POST['id_hari'];
     $postTglPinjam  = $_POST['tgl_pinjam'];
     $tgl_pinjam     = date("Y-m-d", strtotime($postTglPinjam));
     $postJam_awal   = $_POST['jam_awal'];
@@ -33,6 +34,8 @@ if (isset($_POST['btn_borrow'])) {
 
     if (empty($id_ruang)) {
         $error[]    = "Ruang belum dipilih";
+    } elseif (empty($id_hari)) {
+        $error[]    = "Hari belum dipilih";
     } elseif ($postTglPinjam == '') {
         $error      = "Tanggal belum dipilih";
     } elseif ($postJam_awal == '') {
@@ -46,7 +49,7 @@ if (isset($_POST['btn_borrow'])) {
         while ($rowRuang = $queryRuang->fetch_object()) {
             if ($rowRuang->status == 'KOSONG') {
                 try {
-                    if ($staff->createBorrowAccepted($id_user, $id_ruang, $tgl_pinjam, $jam_awal, $jam_akhir, $keterangan)) {
+                    if ($staff->createBorrowAccepted($id_user, $id_ruang, $id_hari, $tgl_pinjam, $jam_awal, $jam_akhir, $keterangan)) {
                     } elseif ($staff->setRoomToUse($id_ruang)) {
                     } $staff->redirect($baseUrl. 'index.php?page=staff&action=home&accepted');
                 } catch(Exception $e) {
@@ -54,7 +57,7 @@ if (isset($_POST['btn_borrow'])) {
                 }
             } else {
                 try {
-                    if ($staff->createBorrowDenied($id_user, $id_ruang, $tgl_pinjam, $jam_awal, $jam_akhir, $keterangan)) {
+                    if ($staff->createBorrowDenied($id_user, $id_ruang, $id_hari, $tgl_pinjam, $jam_awal, $jam_akhir, $keterangan)) {
                     } $staff->redirect($baseUrl.'index.php?page=staff&action=home&denied');
                 } catch(Exception $e) {
                     echo $e->getMessage();
