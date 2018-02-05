@@ -8,11 +8,13 @@ if (!session_id()) {
 
 require 'apps/config/app.php';
 require_once 'apps/model/Connection.php';
+require_once 'apps/model/Staff.php';
 
 $page = (!empty($_GET['page'])) ? $_GET['page'] : null;
 $action = (!empty($_GET['action'])) ? $_GET['action'] : null;
 
 $connect        = new Connection();
+$staff          = new Staff();
 
 switch ($page) {
     case 'home':

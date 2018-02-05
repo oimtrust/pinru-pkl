@@ -117,7 +117,6 @@
                     <th>Jam Akhir</th>
                     <th>Status</th>
                     <th>Tanggal Diproses</th>
-                    <th>Aksi</th>
                 </tr>
                 </thead>
 
@@ -235,10 +234,10 @@
                             <td><?php echo $data->jam_akhir; ?></td>
                             <td><?php echo $data->status; ?></td>
                             <td><?php echo $data->updated_at; ?></td>
-                            <td>
+                            <!-- <td>
                                 <a href="<?php $baseUrl; ?>admin.php?page=staff&action=history-update&update_id=<?php echo $data->id_user; ?>" class="btn btn-floating amber darken-3 waves-effect waves-light tippy" title="Ubah"><i class="mdi mdi-pencil"></i> </a>
                                 <a href="<?php $baseUrl; ?>admin.php?page=staff&action=history-delete&delete_id=<?php echo $data->id_user; ?>" class="btn btn-floating btn-delete red darken-3 waves-effect waves-light tippy" title="Hapus"><i class="mdi mdi-delete-empty"></i> </a>
-                            </td>
+                            </td> -->
                         </tr>
                         <?php
                         $no++;

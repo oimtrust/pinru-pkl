@@ -4,7 +4,6 @@
             <a href="#" data-activates="nav-mobile" class="button-collapse show-on-large"><i class="mdi mdi-menu"></i></a>
             <a href="#" class="dropdown-button right" data-activates="menu-right"><i class="right mdi mdi-dots-vertical"></i></a>
             <ul id='menu-right' class='dropdown-content'>
-                <!-- <li><a href="<?php //$baseUrl; ?>index.php?page=#">Profil</a></li> -->
                 <li><a href="<?php $baseUrl; ?>index.php?page=staff&action=logout">Keluar</a></li>
             </ul>
         </div>

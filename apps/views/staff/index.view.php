@@ -33,7 +33,7 @@
                             <div class="row">
                                 <div class="col s9">
                                     <div class="card-content white-text">
-                                        Selamat! Peminjaman DITERIMA! Anda bisa melihat daftar <i>history</i> <a href="<?php $baseUrl; ?>index.php?page=home&action=history" class="yellow-text">Disini</a>
+                                        Selamat! Peminjaman DITERIMA! Anda bisa melihat daftar <i>history</i> <a href="<?php $baseUrl; ?>index.php?page=staff&action=history" class="yellow-text">Disini</a>
                                     </div>
                                 </div>
                                 <div class="col s3 white-text">
@@ -53,7 +53,7 @@
                             <div class="row">
                                 <div class="col s9">
                                     <div class="card-content white-text">
-                                        Mohon Maaf! Peminjaman DITOLAK! Anda bisa melihat daftar <i>history</i> <a href="<?php $baseUrl; ?>index.php?page=home&action=history" class="yellow-text">Disini</a>
+                                        Mohon Maaf! Peminjaman DITOLAK! Anda bisa melihat daftar <i>history</i> <a href="<?php $baseUrl; ?>index.php?page=staff&action=history" class="yellow-text">Disini</a>
                                     </div>
                                 </div>
                                 <div class="col s3 white-text">
@@ -71,13 +71,13 @@
             <form class="col s12" action="" method="post">
                 <div class="row">
                     <div class="input-field col s12">
-                        <input type="text" name="id_user" id="id_user" readonly onkeypress="return onlyNumber(event)" class="validate">
+                        <input type="text" name="id_user" value="<?php echo $rowUser->id_user; ?>" id="id_user" readonly onkeypress="return onlyNumber(event)" class="validate">
                         <label for="id_user">NIDN/NIK</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s12">
-                        <input type="text" name="fullname" value="<?php  ?>" readonly class="validate">
+                        <input type="text" name="fullname" value="<?php echo $rowUser->nama_user; ?>" readonly class="validate">
                         <label for="fullname">Nama Lengkap</label>
                     </div>
                 </div>
@@ -121,6 +121,13 @@
                     <div class="input-field col s12">
                         <input type="text" class="timepicker" name="jam_akhir" id="jam_akhir">
                         <label for="jam_akhir">Jam Akhir</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="keterangan" name="keterangan" class="materialize-textarea textarea"></textarea>
+                        <label for="keterangan">Keterangan</label>
                     </div>
                 </div>
 
