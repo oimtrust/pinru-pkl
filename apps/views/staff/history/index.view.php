@@ -285,14 +285,14 @@
 
             if ($pagination > 1) {
                 $link = $pagination - 1;
-                $prev = "<a href='" . $baseUrl . "admin.php?page=staff&action=history&pagination=" . $link . "' class='btn purple'><i class='white-text mdi mdi-chevron-double-left'></i></a>";
+                $prev = "<a href='" . $baseUrl . "index.php?page=staff&action=history&pagination=" . $link . "' class='btn purple'><i class='white-text mdi mdi-chevron-double-left'></i></a>";
             } else {
                 $prev = "<a href='#' class='btn purple'><i class='white-text mdi mdi-chevron-double-left'></i></a>";
             }
 
             if ($pagination < $amount_page) {
                 $link = $pagination + 1;
-                $next = "<a href='" . $baseUrl . "admin.php?page=staff&action=history&pagination=" . $link . "' class='btn purple'><i class='white-text mdi mdi-chevron-double-right'></i></a>";
+                $next = "<a href='" . $baseUrl . "index.php?page=staff&action=history&pagination=" . $link . "' class='btn purple'><i class='white-text mdi mdi-chevron-double-right'></i></a>";
             } else {
                 $next = "<a href='#' class='btn purple'><i class='white-text mdi mdi-chevron-double-right'></i></a>";
             }

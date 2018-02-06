@@ -9,12 +9,14 @@ if (!session_id()) {
 require 'apps/config/app.php';
 require_once 'apps/model/Connection.php';
 require_once 'apps/model/Staff.php';
+require_once 'apps/model/Approve.php';
 
 $page = (!empty($_GET['page'])) ? $_GET['page'] : null;
 $action = (!empty($_GET['action'])) ? $_GET['action'] : null;
 
 $connect        = new Connection();
 $staff          = new Staff();
+$approve        = new Approve();
 
 switch ($page) {
     case 'home':
@@ -53,6 +55,10 @@ switch ($page) {
             require 'approve/room.php';
         } elseif ($action == 'report') {
             require 'approve/report/chart.php';
+        } elseif ($action == 'export-xls') {
+            require 'approve/inbox/export-xls.php';
+        } elseif ($action == 'denied') {
+            require 'approve/inbox/denied.php';
         } else {
             require 'error/404.php';
         }

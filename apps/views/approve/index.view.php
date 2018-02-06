@@ -9,7 +9,7 @@
                     </p>
                 </div>
                 <div class="card-action">
-                    <a href="<?php $baseUrl; ?>admin.php?page=approve&action=inbox" class="white-text"><i class="mdi mdi-account-search"></i> Lihat</a>
+                    <a href="<?php $baseUrl; ?>index.php?page=approve&action=inbox" class="white-text"><i class="mdi mdi-account-search"></i> Lihat</a>
                 </div>
             </div>
         </div>

@@ -95,6 +95,11 @@
 
     <form method="post">
         <div class="row">
+            <div class="left">
+                <div class="input-field inline">
+                    <a href="<?php $baseUrl;?>index.php?page=approve&action=export-xls" target="blank" class="btn green">Export File <i class="mdi mdi-file-excel"></i></a>
+                </div>
+            </div>
             <div class="right">
                 <div class="input-field inline">
                     <input id="search" type="text" name="search" class="validate">
@@ -133,7 +138,8 @@
                     $position = ($pagination - 1) * $limit;
                 }
 
-                $query = $connect->execute("SELECT 
+                $query = $connect->execute("SELECT
+                        pinjam.id_peminjaman,
                         pinjam.id_user,
                         user.nama_user,
                         pinjam.id_ruang,
@@ -161,7 +167,8 @@
                         $error[] = "Tidak ada data yang anda cari";
                     } else {
                         if ($date != '') {
-                            $query = $connect->execute("SELECT 
+                            $query = $connect->execute("SELECT
+                                    pinjam.id_peminjaman,
                                     pinjam.id_user,
                                     user.nama_user,
                                     pinjam.id_ruang,
@@ -180,7 +187,8 @@
                                     LEFT JOIN tbl_hari AS hari ON pinjam.id_hari = hari.id_hari
                                     WHERE pinjam.tgl_pinjam LIKE '%$date%'");
                         } else {
-                            $query = $connect->execute("SELECT 
+                            $query = $connect->execute("SELECT
+                                    pinjam.id_peminjaman,
                                     pinjam.id_user,
                                     user.nama_user,
                                     pinjam.id_ruang,
@@ -201,7 +209,8 @@
                         }
                     }
                 } else {
-                    $query = $connect->execute("SELECT 
+                    $query = $connect->execute("SELECT
+                            pinjam.id_peminjaman,
                             pinjam.id_user,
                             user.nama_user,
                             pinjam.id_ruang,
@@ -249,9 +258,9 @@
                             <td><?php echo $data->jam_akhir; ?></td>
                             <td class="<?php echo $color;?>"><?php echo $data->status; ?></td>
                             <td><?php echo $data->updated_at; ?></td>
-                            <td>
-                                <a href="<?php $baseUrl; ?>admin.php?page=approve&action=denied&denied_id=<?php echo $data->id_user; ?>" class="btn btn-floating btn-delete red darken-3 waves-effect waves-light tippy" title="Tolak"><i class="mdi mdi-clipboard-alert"></i> </a>
-                            </td>
+                            <!-- <td>
+                                <a href="<?php $baseUrl; ?>index.php?page=approve&action=denied&denied_id=<?php echo $data->id_peminjaman; ?>" class="btn btn-floating btn-delete red darken-3 waves-effect waves-light tippy" title="Tolak"><i class="mdi mdi-clipboard-alert"></i> </a>
+                            </td> -->
                         </tr>
                         <?php
                         $no++;
@@ -261,7 +270,8 @@
                 </tbody>
             </table>
             <?php
-            $amount_data = $connect->execute("SELECT 
+            $amount_data = $connect->execute("SELECT
+                        pinjam.id_peminjaman,
                         pinjam.id_user,
                         user.nama_user,
                         pinjam.id_ruang,
@@ -285,14 +295,14 @@
 
             if ($pagination > 1) {
                 $link = $pagination - 1;
-                $prev = "<a href='" . $baseUrl . "admin.php?page=staff&action=history&pagination=" . $link . "' class='btn purple'><i class='white-text mdi mdi-chevron-double-left'></i></a>";
+                $prev = "<a href='" . $baseUrl . "index.php?page=approve&action=inbox&pagination=" . $link . "' class='btn purple'><i class='white-text mdi mdi-chevron-double-left'></i></a>";
             } else {
                 $prev = "<a href='#' class='btn purple'><i class='white-text mdi mdi-chevron-double-left'></i></a>";
             }
 
             if ($pagination < $amount_page) {
                 $link = $pagination + 1;
-                $next = "<a href='" . $baseUrl . "admin.php?page=staff&action=history&pagination=" . $link . "' class='btn purple'><i class='white-text mdi mdi-chevron-double-right'></i></a>";
+                $next = "<a href='" . $baseUrl . "index.php?page=approve&action=inbox&pagination=" . $link . "' class='btn purple'><i class='white-text mdi mdi-chevron-double-right'></i></a>";
             } else {
                 $next = "<a href='#' class='btn purple'><i class='white-text mdi mdi-chevron-double-right'></i></a>";
             }
@@ -324,7 +334,7 @@
         var getLink = $(this).attr('href');
 
         swal({
-            title: 'Hapus Daftar Riwayat',
+            title: 'Tolak Peminjaman',
             text: 'Apakah anda yakin?',
             html: true,
             confirmButtonColor: '#d9534f',
