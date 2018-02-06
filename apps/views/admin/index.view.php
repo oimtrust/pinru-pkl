@@ -3,7 +3,7 @@
         <div class="col s12 m3">
             <div class="card  blue">
                 <div class="card-content white-text">
-                    <span class="card-title"> <?php echo "21"; ?> Fakultas</span>
+                    <span class="card-title"> <?php echo $rowFakultas->fakultas; ?> Fakultas</span>
                     <p>
                         <i class="mdi mdi-bank large"></i>
                     </p>
@@ -17,7 +17,7 @@
         <div class="col s12 m3">
             <div class="card purple">
                 <div class="card-content white-text">
-                    <span class="card-title"> <?php echo "32"; ?> Prodi</span>
+                    <span class="card-title"> <?php echo $rowProdi->prodi; ?> Prodi</span>
                     <p>
                         <i class="mdi mdi-home-modern large"></i>
                     </p>

@@ -15,7 +15,7 @@
                 <tr>
                     <td><a href="<?php $baseUrl;?>index.php?page=staff&action=login" class="btn btn-flat waves-purple wafes-effect">DOSEN/STAFF</a></td>
                     <td >&nbsp;</td>
-                    <td><a href="login-approve.php" class="btn btn-flat waves-purple wafes-effect">APPROVAL</a></td>
+                    <td><a href="<?php $baseUrl;?>index.php?page=approve&action=login" class="btn btn-flat waves-purple wafes-effect">APPROVAL</a></td>
                 </tr>
             </table>
         </fieldset>

@@ -39,6 +39,18 @@ switch ($page) {
             require 'error/404.php';
         }
         break;
+
+    case 'approve':
+        if ($action == 'login') {
+            require 'approve/auth/login.php';
+        } elseif ($action == 'logout') {
+            require 'approve/auth/logout.php';
+        } elseif ($action == 'home') {
+            require 'approve/index.php';
+        } else {
+            require 'error/404.php';
+        }
+        break;
     
     default:
         require 'home.php';
