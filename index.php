@@ -47,6 +47,12 @@ switch ($page) {
             require 'approve/auth/logout.php';
         } elseif ($action == 'home') {
             require 'approve/index.php';
+        } elseif ($action == 'inbox') {
+            require 'approve/inbox/index.php';
+        } elseif ($action == 'room') {
+            require 'approve/room.php';
+        } elseif ($action == 'report') {
+            require 'approve/report/chart.php';
         } else {
             require 'error/404.php';
         }

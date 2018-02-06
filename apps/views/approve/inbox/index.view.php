@@ -149,7 +149,7 @@
                         tbl_peminjaman AS pinjam 
                         LEFT JOIN tbl_user AS user ON pinjam.id_user = user.id_user
                         LEFT JOIN tbl_ruang AS ruang ON pinjam.id_ruang = ruang.id_ruang
-                        LEFT JOIN tbl_hari AS hari ON pinjam.id_hari = hari.id_hari WHERE pinjam.id_user = '{$userLogin}'
+                        LEFT JOIN tbl_hari AS hari ON pinjam.id_hari = hari.id_hari
                         ORDER BY pinjam.updated_at DESC LIMIT $position, $limit");
 
                 $no = 1 + $position;
@@ -196,29 +196,29 @@
                                     tbl_peminjaman AS pinjam 
                                     LEFT JOIN tbl_user AS user ON pinjam.id_user = user.id_user
                                     LEFT JOIN tbl_ruang AS ruang ON pinjam.id_ruang = ruang.id_ruang
-                                    LEFT JOIN tbl_hari AS hari ON pinjam.id_hari = hari.id_hari WHERE pinjam.id_user = '{$userLogin}'
+                                    LEFT JOIN tbl_hari AS hari ON pinjam.id_hari = hari.id_hari
                                     ORDER BY pinjam.updated_at DESC LIMIT $position, $limit");
                         }
                     }
                 } else {
                     $query = $connect->execute("SELECT 
-                        pinjam.id_user,
-                        user.nama_user,
-                        pinjam.id_ruang,
-                        ruang.nama_ruang,
-                        pinjam.id_hari,
-                        hari.nama_hari,
-                        pinjam.tgl_pinjam,
-                        pinjam.jam_awal,
-                        pinjam.jam_akhir,
-                        pinjam.status,
-                        pinjam.updated_at
-                        FROM 
-                        tbl_peminjaman AS pinjam 
-                        LEFT JOIN tbl_user AS user ON pinjam.id_user = user.id_user
-                        LEFT JOIN tbl_ruang AS ruang ON pinjam.id_ruang = ruang.id_ruang
-                        LEFT JOIN tbl_hari AS hari ON pinjam.id_hari = hari.id_hari WHERE pinjam.id_user = '{$userLogin}'
-                        ORDER BY pinjam.updated_at DESC LIMIT $position, $limit");
+                            pinjam.id_user,
+                            user.nama_user,
+                            pinjam.id_ruang,
+                            ruang.nama_ruang,
+                            pinjam.id_hari,
+                            hari.nama_hari,
+                            pinjam.tgl_pinjam,
+                            pinjam.jam_awal,
+                            pinjam.jam_akhir,
+                            pinjam.status,
+                            pinjam.updated_at
+                            FROM 
+                            tbl_peminjaman AS pinjam 
+                            LEFT JOIN tbl_user AS user ON pinjam.id_user = user.id_user
+                            LEFT JOIN tbl_ruang AS ruang ON pinjam.id_ruang = ruang.id_ruang
+                            LEFT JOIN tbl_hari AS hari ON pinjam.id_hari = hari.id_hari
+                            ORDER BY pinjam.updated_at DESC LIMIT $position, $limit");
                 }
 
                 $check_search = $query->num_rows;
@@ -232,12 +232,13 @@
 
                 } else {
                     while ($data = $query->fetch_object()) {
+                        if ($data->status == 'DITERIMA') {
+                            $color      = 'green';
+                        } else {
+                            $color      = 'red';
+                        }
                         ?>
-                        <tr class="<?php if ($no % 2 == 0) {
-                                        echo "odd";
-                                    } else {
-                                        echo "even";
-                                    } ?>">
+                        <tr>
                             <th scope="row"><?php echo $no; ?></th>
                             <td><?php echo $data->id_user; ?></td>
                             <td><?php echo $data->nama_user; ?></td>
@@ -246,12 +247,11 @@
                             <td><?php echo $data->tgl_pinjam; ?></td>
                             <td><?php echo $data->jam_awal; ?></td>
                             <td><?php echo $data->jam_akhir; ?></td>
-                            <td><?php echo $data->status; ?></td>
+                            <td class="<?php echo $color;?>"><?php echo $data->status; ?></td>
                             <td><?php echo $data->updated_at; ?></td>
-                            <!-- <td>
-                                <a href="<?php $baseUrl; ?>admin.php?page=staff&action=history-update&update_id=<?php echo $data->id_user; ?>" class="btn btn-floating amber darken-3 waves-effect waves-light tippy" title="Ubah"><i class="mdi mdi-pencil"></i> </a>
-                                <a href="<?php $baseUrl; ?>admin.php?page=staff&action=history-delete&delete_id=<?php echo $data->id_user; ?>" class="btn btn-floating btn-delete red darken-3 waves-effect waves-light tippy" title="Hapus"><i class="mdi mdi-delete-empty"></i> </a>
-                            </td> -->
+                            <td>
+                                <a href="<?php $baseUrl; ?>admin.php?page=approve&action=denied&denied_id=<?php echo $data->id_user; ?>" class="btn btn-floating btn-delete red darken-3 waves-effect waves-light tippy" title="Tolak"><i class="mdi mdi-clipboard-alert"></i> </a>
+                            </td>
                         </tr>
                         <?php
                         $no++;
@@ -277,7 +277,7 @@
                         tbl_peminjaman AS pinjam 
                         LEFT JOIN tbl_user AS user ON pinjam.id_user = user.id_user
                         LEFT JOIN tbl_ruang AS ruang ON pinjam.id_ruang = ruang.id_ruang
-                        LEFT JOIN tbl_hari AS hari ON pinjam.id_hari = hari.id_hari WHERE pinjam.id_user = '{$userLogin}'
+                        LEFT JOIN tbl_hari AS hari ON pinjam.id_hari = hari.id_hari
                         ORDER BY pinjam.updated_at DESC");
             $rows = $amount_data->num_rows;
 

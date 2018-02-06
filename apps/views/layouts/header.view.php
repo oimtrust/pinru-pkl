@@ -32,6 +32,10 @@
     <!-- Sweet Alert JS -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 
+
+    <!-- Chart JS -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+
     <!-- Custom JS -->
     <script type="text/javascript" src="<?php $baseUrl; ?>public/js/init.js"></script>
 </head>
