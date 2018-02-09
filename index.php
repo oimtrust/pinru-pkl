@@ -61,6 +61,8 @@ switch ($page) {
             require 'approve/inbox/denied.php';
         } elseif ($action == 'schedule') {
             require 'approve/schedule/index.php';
+        } elseif ($action == 'detail') {
+            require 'approve/schedule/detail.php';
         } else {
             require 'error/404.php';
         }

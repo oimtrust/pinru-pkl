@@ -1,15 +1,14 @@
 <div class="container">
     <form method="post">
         <div class="row">
-            <div class="col s4">
+            <div class="col s6">
             <div class="card">
                 <div class="card-image">
                 <img src="<?php $baseUrl; ?>public/img/office.jpg">
-                <span class="card-title"><?php echo $detailPinjam->fullname; ?></span>
-                <a href="<?php $baseUrl; ?>index.php?page=home&action=showroom&room_id=<?php echo $detailPinjam->id_ruang; ?>" class="btn-floating btn-large halfway-fab waves-effect waves-light tooltip red" title="Lihat Ruang"><i class="mdi mdi-sofa"></i></a>
+                <span class="card-title"><?php echo $detailPinjam->nama_user; ?></span>
                 </div>
                 <div class="card-content">
-                    <h5><?php echo $detailPinjam->acara; ?></h5>
+                    <h5><?php echo $detailPinjam->nama_ruang; ?></h5>
                     <p>
                         <?php echo $detailPinjam->keterangan; ?>
                     </p>
@@ -17,33 +16,28 @@
             </div>
 
             <div class="card-panel  orange lighten-5">
-                <h5 >INSTANSI</h5>
-                <span><?php echo $detailPinjam->nama_instansi; ?></span>
+                <h6 >HARI</h6>
+                <h4 class="purple-text"><?php echo $detailPinjam->nama_hari; ?></h4>
             </div>
 
             <div class="card-panel  orange lighten-4">
-                <h5 >RUANG YANG DIPINJAM</h5>
-                <span ><?php echo $detailPinjam->nama_ruang; ?></span>
+                <h6>TANGGAL PEMINJAMAN</h6>
+                <h4 class="purple-text"><?php echo $detailPinjam->tgl_pinjam; ?></h4>
             </div>
 
             <div class="card-panel  orange lighten-3">
-                <h5 >HARI</h5>
-                <span ><?php echo $detailPinjam->hari; ?></span>
+                <h6>JAM AWAL PEMINJAMAN</h6>
+                <h4 class="purple-text"><?php echo $detailPinjam->jam_awal; ?></h4>
             </div>
 
             <div class="card-panel  orange lighten-2">
-                <h5 >TANGGAL MULAI</h5>
-                <span ><?php echo $detailPinjam->tgl_awal; ?></span>
+                <h6>JAM AKHIR PEMINJAMAN</h6>
+                <h4 class="purple-text"><?php echo $detailPinjam->jam_akhir; ?></h4>
             </div>
 
             <div class="card-panel orange lighten-1">
-                <h5 >TANGGAL AKHIR</h5>
-                <span ><?php echo $detailPinjam->tgl_akhir; ?></span>
-            </div>
-
-            <div class="row right">
-                <button type="submit" name="btn_reject" class="waves-effect waves-light btn-large btn-floating red accent-3 tooltip" title="DITOLAK"><i class="mdi mdi-close-circle-outline"></i></button>
-                <button type="submit" name="btn_accept" class="waves-effect waves-light btn-large btn-floating green accent-3 tooltip" title="DITERIMA"><i class="mdi mdi-check-circle-outline"></i></button>
+                <h6>STATUS</h6>
+                <h4 class="purple-text"><?php echo $detailPinjam->status; ?></h4>
             </div>
             </div>
         </div>

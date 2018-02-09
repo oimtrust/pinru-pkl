@@ -60,7 +60,7 @@
                             <?php 
                             if ($data->id_hari == '1') {
                                 ?>
-                                <a href="<?php echo $data->id_peminjaman; ?>" class="tippy" title="Lihat Detail">
+                                <a href="<?php $baseUrl;?>index.php?page=approve&action=detail&detail_id=<?php echo $data->id_peminjaman; ?>" class="tippy" title="Lihat Detail">
                                     <?php
                                     echo $data->jam_awal . ' - </br>';
                                     echo $data->jam_akhir;
@@ -74,7 +74,7 @@
                             <?php 
                             if ($data->id_hari == '2') {
                                 ?>
-                                <a href="<?php echo $data->id_peminjaman; ?>" class="tippy" title="Lihat Detail">
+                                <a href="<?php $baseUrl; ?>index.php?page=approve&action=detail&detail_id=<?php echo $data->id_peminjaman; ?>" class="tippy" title="Lihat Detail">
                                     <?php
                                     echo $data->jam_awal . ' - </br>';
                                     echo $data->jam_akhir;
@@ -88,7 +88,7 @@
                             <?php 
                             if ($data->id_hari == '3') {
                                 ?>
-                                <a href="<?php echo $data->id_peminjaman; ?>" class="tippy" title="Lihat Detail">
+                                <a href="<?php $baseUrl; ?>index.php?page=approve&action=detail&detail_id=<?php echo $data->id_peminjaman; ?>" class="tippy" title="Lihat Detail">
                                     <?php
                                     echo $data->jam_awal . ' - </br>';
                                     echo $data->jam_akhir;
@@ -102,7 +102,7 @@
                             <?php 
                             if ($data->id_hari == '4') {
                                 ?>
-                                <a href="<?php echo $data->id_peminjaman; ?>" class="tippy" title="Lihat Detail">
+                                <a href="<?php $baseUrl; ?>index.php?page=approve&action=detail&detail_id=<?php echo $data->id_peminjaman; ?>" class="tippy" title="Lihat Detail">
                                     <?php
                                     echo $data->jam_awal . ' - </br>';
                                     echo $data->jam_akhir;
@@ -116,7 +116,7 @@
                             <?php 
                             if ($data->id_hari == '5') {
                                 ?>
-                                <a href="<?php echo $data->id_peminjaman; ?>" class="tippy" title="Lihat Detail">
+                                <a href="<?php $baseUrl; ?>index.php?page=approve&action=detail&detail_id=<?php echo $data->id_peminjaman; ?>" class="tippy" title="Lihat Detail">
                                     <?php
                                     echo $data->jam_awal . ' - </br>';
                                     echo $data->jam_akhir;
@@ -130,7 +130,7 @@
                             <?php 
                             if ($data->id_hari == '6') {
                                 ?>
-                                <a href="<?php echo $data->id_peminjaman; ?>" class="tippy" title="Lihat Detail">
+                                <a href="<?php $baseUrl; ?>index.php?page=approve&action=detail&detail_id=<?php echo $data->id_peminjaman; ?>" class="tippy" title="Lihat Detail">
                                     <?php
                                     echo $data->jam_awal . ' - </br>';
                                     echo $data->jam_akhir;
@@ -144,7 +144,7 @@
                             <?php 
                             if ($data->id_hari == '7') {
                                 ?>
-                                <a href="<?php echo $data->id_peminjaman;?>" class="tippy" title="Lihat Detail">
+                                <a href="<?php $baseUrl; ?>index.php?page=approve&action=detail&detail_id=<?php echo $data->id_peminjaman;?>" class="tippy" title="Lihat Detail">
                                     <?php
                                     echo $data->jam_awal . ' - </br>';
                                     echo $data->jam_akhir;

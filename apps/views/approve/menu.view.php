@@ -21,7 +21,7 @@
             </span>
         </div>
     </li>
-    <li><a href="<?php $baseUrl; ?>index.php?page=approve&action=#" class="waves-effect"><i class="mdi mdi-view-dashboard small green-text"></i>Dashboard</a></li>
+    <li><a href="<?php $baseUrl; ?>index.php?page=approve&action=home" class="waves-effect"><i class="mdi mdi-view-dashboard small green-text"></i>Dashboard</a></li>
     <li><div class="divider"></div></li>
     <li><a href="<?php $baseUrl; ?>index.php?page=approve&action=inbox" class="waves-effect"><i class="mdi mdi-email-open-outline small blue-text"></i>Kotak Masuk</a></li>
     <li><a href="<?php $baseUrl; ?>index.php?page=approve&action=room" class="waves-effect"><i class="mdi mdi-sofa small red-text"></i>Lihat Ruang</a></li>
