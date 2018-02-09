@@ -22,5 +22,10 @@ define('DB_DATABASE', 'db_pinru_pkl');
 1. Lalu jalankan aplikasi anda. Untuk masuk ke sistem admin bukalah link `http://localhost/pinru-pkl/admin.php` dan untuk username dan password :
 `username : oimtrust, password : rahasia`
 
+1. Untuk Approve :
+`username : approve, password : rahasia`
+
+Sedangkan user biasa bisa di lihat di menu user role admin, password `rahasia` semua
+
 ### Lisensi
 Aplikasi ini berlisensi MIT dan Kredit dimiliki hak penuh oleh Fathur Rohim ([oimtrust.com](http://oimtrust.com/ "oimtrust.com"))
