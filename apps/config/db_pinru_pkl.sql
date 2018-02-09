@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Feb 06, 2018 at 09:06 AM
+-- Generation Time: Feb 09, 2018 at 10:49 AM
 -- Server version: 5.7.21-0ubuntu0.16.04.1
 -- PHP Version: 7.0.22-0ubuntu0.16.04.1
 
@@ -123,7 +123,10 @@ CREATE TABLE `tbl_peminjaman` (
 --
 
 INSERT INTO `tbl_peminjaman` (`id_peminjaman`, `id_user`, `id_ruang`, `id_hari`, `tgl_pinjam`, `jam_awal`, `jam_akhir`, `keterangan`, `status`, `created_at`, `updated_at`) VALUES
-(1, 12345, 2, 2, '2018-02-06', '08:00:00', '11:00:00', 'Workshop Mobile', 'DITERIMA', '2018-02-05 15:09:30', '2018-02-05 17:29:19');
+(1, 12345, 2, 2, '2018-02-06', '08:00:00', '11:00:00', 'Workshop Mobile', 'DITERIMA', '2018-02-05 15:09:30', '2018-02-05 17:29:19'),
+(2, 12354, 3, 3, '2018-02-07', '08:00:00', '10:00:00', 'Rapart', 'DITERIMA', '2018-02-06 11:35:50', '2018-02-06 11:35:50'),
+(3, 12345, 2, 7, '2018-02-11', '08:30:00', '10:00:00', 'Temu Akrab', 'DITOLAK', '2018-02-08 22:10:52', '2018-02-08 22:10:52'),
+(4, 12354, 1, 2, '2018-02-13', '09:00:00', '12:00:00', 'Pelatihan', 'DITERIMA', '2018-02-08 23:22:18', '2018-02-08 23:22:18');
 
 -- --------------------------------------------------------
 
@@ -184,9 +187,9 @@ CREATE TABLE `tbl_ruang` (
 --
 
 INSERT INTO `tbl_ruang` (`id_ruang`, `nama_ruang`, `status`, `created_at`, `updated_at`) VALUES
-(1, 'J1', 'KOSONG', '2018-01-26 22:13:10', '2018-01-27 22:39:15'),
+(1, 'J1', 'TERPAKAI', '2018-01-26 22:13:10', '2018-02-08 23:22:18'),
 (2, 'J2', 'TERPAKAI', '2018-01-26 22:17:16', '2018-02-05 15:09:30'),
-(3, 'J3', 'KOSONG', '2018-01-27 22:37:54', '2018-01-27 22:37:54'),
+(3, 'J3', 'TERPAKAI', '2018-01-27 22:37:54', '2018-02-06 11:35:51'),
 (4, 'J4', 'KOSONG', '2018-01-27 22:37:58', '2018-01-27 22:37:58'),
 (5, 'J5', 'KOSONG', '2018-01-27 22:38:00', '2018-01-27 22:38:00'),
 (6, 'J6', 'KOSONG', '2018-01-27 22:38:03', '2018-01-27 22:38:03'),
@@ -294,7 +297,7 @@ ALTER TABLE `tbl_hari`
 -- AUTO_INCREMENT for table `tbl_peminjaman`
 --
 ALTER TABLE `tbl_peminjaman`
-  MODIFY `id_peminjaman` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_peminjaman` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `tbl_prodi`
