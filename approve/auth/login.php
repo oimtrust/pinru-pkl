@@ -4,7 +4,9 @@ if (defined('RESTRICTED')) {
     exit('No direct script access allowed!');
 }
 
-session_start();
+if (!isset($_SESSION)) {
+    session_start();
+} 
 
 //if logged in
 if (isset($_SESSION['username'])) {
