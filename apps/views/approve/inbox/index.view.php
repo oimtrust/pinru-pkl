@@ -50,7 +50,7 @@
                             <div class="row">
                                 <div class="col s9">
                                     <div class="card-content white-text">
-                                        Selamat! Perubahan data berhasil.
+                                        Selamat! Perubahan status peminjaman berhasil.
                                     </div>
                                 </div>
                                 <div class="col s3 white-text">
@@ -123,6 +123,7 @@
                     <th>Jam Akhir</th>
                     <th>Status</th>
                     <th>Tanggal Diproses</th>
+                    <th>Opsi</th>
                 </tr>
                 </thead>
 
@@ -258,9 +259,10 @@
                             <td><?php echo $data->jam_akhir; ?></td>
                             <td class="<?php echo $color;?>"><?php echo $data->status; ?></td>
                             <td><?php echo $data->updated_at; ?></td>
-                            <!-- <td>
+                            <td>
                                 <a href="<?php $baseUrl; ?>index.php?page=approve&action=denied&denied_id=<?php echo $data->id_peminjaman; ?>" class="btn btn-floating btn-delete red darken-3 waves-effect waves-light tippy" title="Tolak"><i class="mdi mdi-clipboard-alert"></i> </a>
-                            </td> -->
+                                <a href="<?php $baseUrl; ?>index.php?page=approve&action=accepted&accepted_id=<?php echo $data->id_peminjaman; ?>" class="btn btn-floating btn-delete green darken-3 waves-effect waves-light tippy" title="Terima"><i class="mdi mdi-clipboard-check"></i> </a>
+                            </td>
                         </tr>
                         <?php
                         $no++;

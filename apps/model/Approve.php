@@ -2,11 +2,11 @@
 
 include_once 'Connection.php';
 
-class Approve
+class Approve extends Connection
 {
-    public function deniedOfBorrow($id_peminjaman)
+    public function deniedOfBorrow($alasan, $id_peminjaman)
     {
-        $result     = $this->db->query("UPDATE tbl_peminjaman SET `status` = 'DITOLAK' WHERE id_peminjaman = '{$id_peminjaman}'");
+        $result     = $this->db->query("UPDATE tbl_peminjaman SET `status` = 'DITOLAK', alasan = '{$alasan}' WHERE id_peminjaman = '{$id_peminjaman}'");
     }
 
     public function setRoomToEmpty($id_ruang)
