@@ -59,6 +59,8 @@ switch ($page) {
             require 'approve/inbox/export-xls.php';
         } elseif ($action == 'denied') {
             require 'approve/inbox/denied.php';
+        } elseif ($action == 'accepted') {
+            require 'approve/inbox/accepted.php';
         } elseif ($action == 'schedule') {
             require 'approve/schedule/index.php';
         } elseif ($action == 'detail') {

@@ -5,9 +5,9 @@ if (defined('RESTRICTED')) {
     exit('No direct script access allowed!');
 }
 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+// ini_set('display_errors', 1);
+// ini_set('display_startup_errors', 1);
+// error_reporting(E_ALL);
 
 $userLogin = "";
 
@@ -42,7 +42,7 @@ if (isset($_POST['btn_denied'])) {
             if ($approve->deniedOfBorrow($alasan, $id_peminjaman)) {
                 
             }
-            $approve->redirect($baseUrl.'index.php?page=approve&action=inbox&updated');
+            $approve->redirect($baseUrl.'index.php?page=approve&action=inbox&denied');
         } catch(Exception $e) {
             echo $e->getMessage();
         }

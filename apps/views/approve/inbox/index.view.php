@@ -42,7 +42,7 @@
             </div>
             <?php
 
-        } elseif (isset($_GET['updated'])) {
+        } elseif (isset($_GET['accepted'])) {
             ?>
                 <div class="row alert_box">
                     <div class="col s12">
@@ -50,7 +50,27 @@
                             <div class="row">
                                 <div class="col s9">
                                     <div class="card-content white-text">
-                                        Selamat! Perubahan status peminjaman berhasil.
+                                        Peminjaman sukses di terima.
+                                    </div>
+                                </div>
+                                <div class="col s3 white-text">
+                                    <i class="mdi mdi-close close right alert_close" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <?php
+
+            } elseif (isset($_GET['denied'])) {
+                ?>
+                <div class="row alert_box">
+                    <div class="col s12">
+                        <div class="card yellow darken-2">
+                            <div class="row">
+                                <div class="col s9">
+                                    <div class="card-content white-text">
+                                        Peminjaman sukses di tolak.
                                     </div>
                                 </div>
                                 <div class="col s3 white-text">
@@ -260,8 +280,8 @@
                             <td class="<?php echo $color;?>"><?php echo $data->status; ?></td>
                             <td><?php echo $data->updated_at; ?></td>
                             <td>
-                                <a href="<?php $baseUrl; ?>index.php?page=approve&action=denied&denied_id=<?php echo $data->id_peminjaman; ?>" class="btn btn-floating btn-delete red darken-3 waves-effect waves-light tippy" title="Tolak"><i class="mdi mdi-clipboard-alert"></i> </a>
-                                <a href="<?php $baseUrl; ?>index.php?page=approve&action=accepted&accepted_id=<?php echo $data->id_peminjaman; ?>" class="btn btn-floating btn-delete green darken-3 waves-effect waves-light tippy" title="Terima"><i class="mdi mdi-clipboard-check"></i> </a>
+                                <a href="<?php $baseUrl; ?>index.php?page=approve&action=denied&denied_id=<?php echo $data->id_peminjaman; ?>" class="btn btn-floating btn-denied red darken-3 waves-effect waves-light tippy" title="Tolak"><i class="mdi mdi-clipboard-alert"></i> </a>
+                                <a href="<?php $baseUrl; ?>index.php?page=approve&action=accepted&accepted_id=<?php echo $data->id_peminjaman; ?>" class="btn btn-floating btn-accepted green darken-3 waves-effect waves-light tippy" title="Terima"><i class="mdi mdi-clipboard-check"></i> </a>
                             </td>
                         </tr>
                         <?php
@@ -332,11 +352,27 @@
         arrow: true
     });
 
-    $('.btn-delete').on('click',function(){
+    $('.btn-denied').on('click',function(){
         var getLink = $(this).attr('href');
 
         swal({
             title: 'Tolak Peminjaman',
+            text: 'Apakah anda yakin?',
+            html: true,
+            confirmButtonColor: '#d9534f',
+            showCancelButton: true,
+        },function(){
+            window.location.href = getLink
+        });
+
+        return false;
+    });
+
+    $('.btn-accepted').on('click',function(){
+        var getLink = $(this).attr('href');
+
+        swal({
+            title: 'Terima Peminjaman',
             text: 'Apakah anda yakin?',
             html: true,
             confirmButtonColor: '#d9534f',
