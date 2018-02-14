@@ -7,9 +7,9 @@
         <fieldset>
             <table width="400px" border="0" cellspacing="0" cellpadding="0">
                 <tr>
-                    <td width="149" ><a href="#"><img src="<?php $baseUrl;?>public/img/user.png" alt="" width="131" height="131" /></a></td>
+                    <td width="149" ><a href="<?php $baseUrl; ?>index.php?page=staff&action=login"><img src="<?php $baseUrl;?>public/img/user.png" alt="" width="131" height="131" /></a></td>
                     <td width="27">&nbsp;</td>
-                    <td width="130" ><a href="#"><img src="<?php $baseUrl; ?>public/img/user1.png" alt="" width="131" height="131" /></a></td>
+                    <td width="130" ><a href="<?php $baseUrl; ?>index.php?page=approve&action=login"><img src="<?php $baseUrl; ?>public/img/user1.png" alt="" width="131" height="131" /></a></td>
                 </tr>
 
                 <tr>
