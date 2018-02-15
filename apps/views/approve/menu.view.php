@@ -23,10 +23,22 @@
     </li>
     <li><a href="<?php $baseUrl; ?>index.php?page=approve&action=home" class="waves-effect"><i class="mdi mdi-view-dashboard small green-text"></i>Dashboard</a></li>
     <li><div class="divider"></div></li>
-    <li><a href="<?php $baseUrl; ?>index.php?page=approve&action=inbox" class="waves-effect"><i class="mdi mdi-email-open-outline small blue-text"></i>Kotak Masuk</a></li>
+    <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+          <li>
+            <a class="collapsible-header">Kotak Masuk<i class="mdi mdi-chevron-down right"></i></a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="<?php $baseUrl; ?>index.php?page=approve&action=inbox">Semua Peminjaman<i class="mdi mdi-email-outline small blue-text"></i></a></li>
+                <li><a href="<?php $baseUrl; ?>index.php?page=approve&action=#">Proses Peminjaman<i class="mdi mdi-email-open-outline small pink-text"></i></a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+    </li>
     <li><a href="<?php $baseUrl; ?>index.php?page=approve&action=room" class="waves-effect"><i class="mdi mdi-sofa small red-text"></i>Lihat Ruang</a></li>
     <li><a href="<?php $baseUrl; ?>index.php?page=approve&action=schedule" class="waves-effect"><i class="mdi mdi-calendar-clock small purple-text"></i>Lihat Jadwal</a></li>
-    <li><a href="<?php $baseUrl; ?>index.php?page=approve&action=report" class="waves-effect"><i class="mdi mdi-chart-bar small orange-text"></i>Laporan</a></li>
+    <li><a href="<?php $baseUrl; ?>index.php?page=approve&action=report" class="waves-effect"><i class="mdi mdi-chart-bar small orange-text"></i>Grafik</a></li>
 </ul>
 
 <script type="text/javascript">
