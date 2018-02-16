@@ -61,6 +61,10 @@ switch ($page) {
             require 'approve/inbox/denied.php';
         } elseif ($action == 'accepted') {
             require 'approve/inbox/accepted.php';
+        } elseif ($action == 'inbox-process') {
+            require 'approve/inbox/process.php';
+        } elseif ($action == 'process-finish') {
+            require 'approve/inbox/process-finish.php';
         } elseif ($action == 'schedule') {
             require 'approve/schedule/index.php';
         } elseif ($action == 'detail') {

@@ -30,7 +30,7 @@
             <div class="collapsible-body">
               <ul>
                 <li><a href="<?php $baseUrl; ?>index.php?page=approve&action=inbox">Semua Peminjaman<i class="mdi mdi-email-outline small blue-text"></i></a></li>
-                <li><a href="<?php $baseUrl; ?>index.php?page=approve&action=#">Proses Peminjaman<i class="mdi mdi-email-open-outline small pink-text"></i></a></li>
+                <li><a href="<?php $baseUrl; ?>index.php?page=approve&action=inbox-process">Proses Peminjaman<i class="mdi mdi-email-open-outline small pink-text"></i></a></li>
               </ul>
             </div>
           </li>
