@@ -45,7 +45,7 @@
                             LEFT JOIN tbl_user AS user ON pinjam.id_user = user.id_user
                             LEFT JOIN tbl_ruang AS ruang ON pinjam.id_ruang = ruang.id_ruang
                             LEFT JOIN tbl_hari AS hari ON pinjam.id_hari = hari.id_hari
-                            WHERE pinjam.id_ruang
+                            WHERE pinjam.id_ruang && pinjam.status = 'DITERIMA'
                             ORDER BY pinjam.updated_at DESC LIMIT $position, $limit");
 
                 $no = 1 + $position;
@@ -179,7 +179,7 @@
                             LEFT JOIN tbl_user AS user ON pinjam.id_user = user.id_user
                             LEFT JOIN tbl_ruang AS ruang ON pinjam.id_ruang = ruang.id_ruang
                             LEFT JOIN tbl_hari AS hari ON pinjam.id_hari = hari.id_hari
-                            WHERE pinjam.id_ruang
+                            WHERE pinjam.id_ruang && pinjam.status = 'DITERIMA'
                             ORDER BY pinjam.updated_at DESC");
             $rows = $amount_data->num_rows;
 
