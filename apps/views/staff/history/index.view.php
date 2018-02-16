@@ -232,6 +232,15 @@
 
                 } else {
                     while ($data = $query->fetch_object()) {
+                        if ($data->status == 'DITERIMA') {
+                            $color = 'green';
+                        } elseif ($data->status == 'DITOLAK') {
+                            $color = 'red';
+                        } elseif ($data->status == 'MENUNGGU') {
+                            $color = 'yellow';
+                        } else {
+                            $color = 'grey';
+                        }
                         ?>
                         <tr class="<?php if ($no % 2 == 0) {
                                         echo "odd";
@@ -246,7 +255,7 @@
                             <td><?php echo $data->tgl_pinjam; ?></td>
                             <td><?php echo $data->jam_awal; ?></td>
                             <td><?php echo $data->jam_akhir; ?></td>
-                            <td><?php echo $data->status; ?></td>
+                            <td class="<?php echo $color;?>"><?php echo $data->status; ?></td>
                             <td><?php echo $data->updated_at; ?></td>
                             <!-- <td>
                                 <a href="<?php $baseUrl; ?>admin.php?page=staff&action=history-update&update_id=<?php echo $data->id_user; ?>" class="btn btn-floating amber darken-3 waves-effect waves-light tippy" title="Ubah"><i class="mdi mdi-pencil"></i> </a>

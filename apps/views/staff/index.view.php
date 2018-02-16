@@ -25,7 +25,7 @@
                     <?php
 
                 }
-            } elseif (isset($_GET['accepted'])) {
+            } elseif (isset($_GET['success'])) {
                 ?>
                 <div class="row alert_box">
                     <div class="col s12">
@@ -45,27 +45,7 @@
                 </div>
                 <?php
 
-            } elseif (isset($_GET['denied'])) {
-                ?>
-                <div class="row alert_box">
-                    <div class="col s12">
-                        <div class="card orange darken-2">
-                            <div class="row">
-                                <div class="col s9">
-                                    <div class="card-content white-text">
-                                        Mohon Maaf! Peminjaman DITOLAK! Anda bisa melihat daftar <i>history</i> <a href="<?php $baseUrl; ?>index.php?page=staff&action=history" class="yellow-text">Disini</a>
-                                    </div>
-                                </div>
-                                <div class="col s3 white-text">
-                                    <i class="mdi mdi-close close right alert_close" aria-hidden="true"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <?php
-
-            }
+            } 
             ?>
             <!-- End Alert box -->
             <form class="col s12" action="" method="post">

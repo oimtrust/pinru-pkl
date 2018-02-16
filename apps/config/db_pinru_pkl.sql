@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Feb 09, 2018 at 10:49 AM
+-- Generation Time: Feb 16, 2018 at 09:33 AM
 -- Server version: 5.7.21-0ubuntu0.16.04.1
--- PHP Version: 7.0.22-0ubuntu0.16.04.1
+-- PHP Version: 7.0.25-0ubuntu0.16.04.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -113,7 +113,8 @@ CREATE TABLE `tbl_peminjaman` (
   `jam_awal` time NOT NULL,
   `jam_akhir` time NOT NULL,
   `keterangan` varchar(255) DEFAULT NULL,
-  `status` varchar(20) NOT NULL,
+  `status` varchar(50) NOT NULL DEFAULT 'MENUNGGU',
+  `alasan` varchar(255) DEFAULT 'Tidak Ada',
   `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -122,11 +123,13 @@ CREATE TABLE `tbl_peminjaman` (
 -- Dumping data for table `tbl_peminjaman`
 --
 
-INSERT INTO `tbl_peminjaman` (`id_peminjaman`, `id_user`, `id_ruang`, `id_hari`, `tgl_pinjam`, `jam_awal`, `jam_akhir`, `keterangan`, `status`, `created_at`, `updated_at`) VALUES
-(1, 12345, 2, 2, '2018-02-06', '08:00:00', '11:00:00', 'Workshop Mobile', 'DITERIMA', '2018-02-05 15:09:30', '2018-02-05 17:29:19'),
-(2, 12354, 3, 3, '2018-02-07', '08:00:00', '10:00:00', 'Rapart', 'DITERIMA', '2018-02-06 11:35:50', '2018-02-06 11:35:50'),
-(3, 12345, 2, 7, '2018-02-11', '08:30:00', '10:00:00', 'Temu Akrab', 'DITOLAK', '2018-02-08 22:10:52', '2018-02-08 22:10:52'),
-(4, 12354, 1, 2, '2018-02-13', '09:00:00', '12:00:00', 'Pelatihan', 'DITERIMA', '2018-02-08 23:22:18', '2018-02-08 23:22:18');
+INSERT INTO `tbl_peminjaman` (`id_peminjaman`, `id_user`, `id_ruang`, `id_hari`, `tgl_pinjam`, `jam_awal`, `jam_akhir`, `keterangan`, `status`, `alasan`, `created_at`, `updated_at`) VALUES
+(1, 12345, 2, 2, '2018-02-06', '08:00:00', '11:00:00', 'Workshop Mobile', 'DITERIMA', NULL, '2018-02-05 15:09:30', '2018-02-05 17:29:19'),
+(2, 12354, 3, 3, '2018-02-07', '08:00:00', '10:00:00', 'Rapart', 'SELESAI', 'Karena jadwal tidak bentrok', '2018-02-06 11:35:50', '2018-02-16 07:51:31'),
+(3, 12345, 2, 7, '2018-02-11', '08:30:00', '10:00:00', 'Temu Akrab', 'DITOLAK', NULL, '2018-02-08 22:10:52', '2018-02-08 22:10:52'),
+(4, 12354, 1, 2, '2018-02-13', '09:00:00', '12:00:00', 'Pelatihan', 'DITERIMA', 'Terima aja', '2018-02-08 23:22:18', '2018-02-16 08:09:59'),
+(5, 11111, 4, 1, '2018-02-19', '08:30:00', '11:30:00', 'Rapat Organisasi', 'MENUNGGU', 'Tidak Ada', '2018-02-16 09:09:06', '2018-02-16 09:09:06'),
+(6, 11111, 4, 7, '2018-02-18', '09:00:00', '12:15:00', 'Lari Pagi Bersama', 'MENUNGGU', 'Tidak Ada', '2018-02-16 09:30:06', '2018-02-16 09:30:06');
 
 -- --------------------------------------------------------
 
@@ -189,7 +192,7 @@ CREATE TABLE `tbl_ruang` (
 INSERT INTO `tbl_ruang` (`id_ruang`, `nama_ruang`, `status`, `created_at`, `updated_at`) VALUES
 (1, 'J1', 'TERPAKAI', '2018-01-26 22:13:10', '2018-02-08 23:22:18'),
 (2, 'J2', 'TERPAKAI', '2018-01-26 22:17:16', '2018-02-05 15:09:30'),
-(3, 'J3', 'TERPAKAI', '2018-01-27 22:37:54', '2018-02-06 11:35:51'),
+(3, 'J3', 'KOSONG', '2018-01-27 22:37:54', '2018-02-16 07:51:32'),
 (4, 'J4', 'KOSONG', '2018-01-27 22:37:58', '2018-01-27 22:37:58'),
 (5, 'J5', 'KOSONG', '2018-01-27 22:38:00', '2018-01-27 22:38:00'),
 (6, 'J6', 'KOSONG', '2018-01-27 22:38:03', '2018-01-27 22:38:03'),
@@ -297,7 +300,7 @@ ALTER TABLE `tbl_hari`
 -- AUTO_INCREMENT for table `tbl_peminjaman`
 --
 ALTER TABLE `tbl_peminjaman`
-  MODIFY `id_peminjaman` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id_peminjaman` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `tbl_prodi`

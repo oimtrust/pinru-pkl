@@ -45,24 +45,12 @@ if (isset($_POST['btn_borrow'])) {
     } elseif ($keterangan == '') {
         $error[]    = "Keterangan masih kosong";
     } else {
-        $queryRuang = $connect->execute("SELECT * FROM tbl_ruang WHERE id_ruang = '{$id_ruang}'");
-        while ($rowRuang = $queryRuang->fetch_object()) {
-            if ($rowRuang->status == 'KOSONG') {
-                try {
-                    if ($staff->createBorrowAccepted($id_user, $id_ruang, $id_hari, $tgl_pinjam, $jam_awal, $jam_akhir, $keterangan)) {
-                    } elseif ($staff->setRoomToUse($id_ruang)) {
-                    } $staff->redirect($baseUrl. 'index.php?page=staff&action=home&accepted');
-                } catch(Exception $e) {
-                    echo $e->getMessage();
-                }
-            } else {
-                try {
-                    if ($staff->createBorrowDenied($id_user, $id_ruang, $id_hari, $tgl_pinjam, $jam_awal, $jam_akhir, $keterangan)) {
-                    } $staff->redirect($baseUrl.'index.php?page=staff&action=home&denied');
-                } catch(Exception $e) {
-                    echo $e->getMessage();
-                }
+        try {
+            if ($staff->createBorrow($id_user, $id_ruang, $id_hari, $tgl_pinjam, $jam_awal, $jam_akhir, $keterangan)) {
             }
+            $staff->redirect($baseUrl . 'index.php?page=staff&action=home&success');
+        } catch (Exception $e) {
+            echo $e->getMessage();
         }
     }
 }
