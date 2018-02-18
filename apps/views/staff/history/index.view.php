@@ -117,6 +117,7 @@
                     <th>Jam Awal</th>
                     <th>Jam Akhir</th>
                     <th>Status</th>
+                    <th>Alasan</th>
                     <th>Tanggal Diproses</th>
                 </tr>
                 </thead>
@@ -144,6 +145,7 @@
                         pinjam.jam_awal,
                         pinjam.jam_akhir,
                         pinjam.status,
+                        pinjam.alasan,
                         pinjam.updated_at
                         FROM 
                         tbl_peminjaman AS pinjam 
@@ -172,6 +174,7 @@
                                     pinjam.jam_awal,
                                     pinjam.jam_akhir,
                                     pinjam.status,
+                                    pinjam.alasan,
                                     pinjam.updated_at
                                     FROM 
                                     tbl_peminjaman AS pinjam 
@@ -191,6 +194,7 @@
                                     pinjam.jam_awal,
                                     pinjam.jam_akhir,
                                     pinjam.status,
+                                    pinjam.alasan,
                                     pinjam.updated_at
                                     FROM 
                                     tbl_peminjaman AS pinjam 
@@ -212,6 +216,7 @@
                         pinjam.jam_awal,
                         pinjam.jam_akhir,
                         pinjam.status,
+                        pinjam.alasan,
                         pinjam.updated_at
                         FROM 
                         tbl_peminjaman AS pinjam 
@@ -256,6 +261,7 @@
                             <td><?php echo $data->jam_awal; ?></td>
                             <td><?php echo $data->jam_akhir; ?></td>
                             <td class="<?php echo $color;?>"><?php echo $data->status; ?></td>
+                            <td><?php echo $data->alasan;?></td>
                             <td><?php echo $data->updated_at; ?></td>
                             <!-- <td>
                                 <a href="<?php $baseUrl; ?>admin.php?page=staff&action=history-update&update_id=<?php echo $data->id_user; ?>" class="btn btn-floating amber darken-3 waves-effect waves-light tippy" title="Ubah"><i class="mdi mdi-pencil"></i> </a>
@@ -281,6 +287,7 @@
                         pinjam.jam_awal,
                         pinjam.jam_akhir,
                         pinjam.status,
+                        pinjam.alasan,
                         pinjam.updated_at
                         FROM 
                         tbl_peminjaman AS pinjam 
