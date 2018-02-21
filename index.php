@@ -22,6 +22,8 @@ switch ($page) {
     case 'home':
         if ($action == 'index') {
             require 'home.php';
+        } elseif ($action == 'detail') {
+            require 'detail.php';
         }
         else {
             require 'error/404.php';
