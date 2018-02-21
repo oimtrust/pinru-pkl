@@ -32,6 +32,9 @@ if (isset($_POST['btn_borrow'])) {
     $jam_akhir      = date("H:i:s", strtotime($postJam_akhir));
     $keterangan     = $_POST['keterangan'];
 
+//    $dateNow        = $staff->execute("select * from tbl_peminjaman where tgl_pinjam = curdate() and id_ruang = '{$id_ruang}'");
+//    $checkTime      = $dateNow->fetch_object();
+
     if (empty($id_ruang)) {
         $error[]    = "Ruang belum dipilih";
     } elseif (empty($id_hari)) {
@@ -45,6 +48,11 @@ if (isset($_POST['btn_borrow'])) {
     } elseif ($keterangan == '') {
         $error[]    = "Keterangan masih kosong";
     } else {
+
+        $queryTime      = $staff->execute("SELECT * FROM tbl_peminjaman WHERE (jam_awal BETWEEN '{$jam_awal}' AND '{$jam_akhir}') OR (jam_akhir BETWEEN '{$jam_akhir}' AND '{$jam_akhir}') AND id_ruang = '{$id_ruang}'");
+        $checkTime      = $queryTime->fetch_object();
+
+        //Logic in here --> accepted or denied of borrow
         try {
             if ($staff->createBorrow($id_user, $id_ruang, $id_hari, $tgl_pinjam, $jam_awal, $jam_akhir, $keterangan)) {
             }
