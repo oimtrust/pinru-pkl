@@ -18,13 +18,11 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/staff/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+            <state relative-caret-position="492">
+              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
-                <marker date="1519224322000" expanded="true" signature="361:414" ph="SELECT * FRO... tbl_user" />
-                <marker date="1519224322000" expanded="true" signature="1024:1110" ph="select * fro... tbl_peminjaman" />
-                <marker date="1519224322000" expanded="true" signature="1203:1346" ph="SELECT * FRO... tbl_peminjaman" />
-                <marker date="1519224322000" expanded="true" signature="1203:1375" ph="SELECT * FRO... tbl_peminjaman" />
+                <marker date="1519302427000" expanded="true" signature="361:414" ph="SELECT * FRO... tbl_user" />
+                <marker date="1519302427000" expanded="true" signature="1024:1110" ph="select * fro... tbl_peminjaman" />
               </folding>
             </state>
           </provider>
@@ -43,12 +41,18 @@
       <file leaf-file-name="Staff.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/model/Staff.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="141" lean-forward="false" selection-start-line="21" selection-start-column="141" selection-end-line="21" selection-end-column="141" />
+            <state relative-caret-position="585">
+              <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
               <folding>
-                <marker date="1519224322000" expanded="true" signature="227:459" ph="INSERT INTO tbl_peminjaman... " />
-                <marker date="1519224322000" expanded="true" signature="631:884" ph="INSERT INTO tbl_peminjaman... " />
-                <marker date="1519224322000" expanded="true" signature="1058:1312" ph="INSERT INTO tbl_peminjaman... " />
+                <marker date="1519284737000" expanded="true" signature="227:459" ph="INSERT INTO tbl_peminjaman... " />
+                <marker date="1519284737000" expanded="true" signature="631:884" ph="INSERT INTO tbl_peminjaman... " />
+                <marker date="1519284737000" expanded="true" signature="1058:1312" ph="INSERT INTO tbl_peminjaman... " />
+                <marker date="1519284737000" expanded="true" signature="1479:1711" ph="SELECT id_ru... tbl_peminjaman" />
+                <marker date="1519284737000" expanded="true" signature="1479:1738" ph="SELECT * FRO... tbl_peminjaman" />
+                <marker date="1519284737000" expanded="true" signature="1778:1892" ph="SELECT * FRO... tbl_peminjaman" />
+                <marker date="1519284737000" expanded="true" signature="1778:2059" ph="SELECT * FRO... tbl_peminjaman" />
+                <marker date="1519284737000" expanded="true" signature="1778:2114" ph="SELECT * FRO... tbl_peminjaman" />
+                <marker date="1519284737000" expanded="true" signature="1778:2141" ph="SELECT * FRO... tbl_peminjaman" />
               </folding>
             </state>
           </provider>
@@ -75,8 +79,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/apps/views/index.view.php" />
         <option value="$PROJECT_DIR$/detail.php" />
-        <option value="$PROJECT_DIR$/staff/index.php" />
         <option value="$PROJECT_DIR$/apps/model/Staff.php" />
+        <option value="$PROJECT_DIR$/staff/index.php" />
       </list>
     </option>
   </component>
@@ -90,7 +94,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -113,6 +117,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,7 +166,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,18 +210,18 @@
       <workItem from="1519139803831" duration="306000" />
       <workItem from="1519190139149" duration="2571000" />
       <workItem from="1519216441014" duration="33000" />
-      <workItem from="1519216531290" duration="2885000" />
+      <workItem from="1519216531290" duration="3747000" />
+      <workItem from="1519263571005" duration="4091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6161000" />
+    <option name="totallyTimeSpent" value="11114000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="828" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18454936" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18669528" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -248,15 +252,47 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/staff/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1519302427000" expanded="true" signature="361:414" ph="SELECT * FRO... tbl_user" />
+            <marker date="1519302427000" expanded="true" signature="1024:1110" ph="select * fro... tbl_peminjaman" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/model/Staff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="141" lean-forward="false" selection-start-line="21" selection-start-column="141" selection-end-line="21" selection-end-column="141" />
+          <folding>
+            <marker date="1519284737000" expanded="true" signature="227:459" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519284737000" expanded="true" signature="631:884" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519284737000" expanded="true" signature="1058:1312" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519284737000" expanded="true" signature="1479:1711" ph="SELECT id_ru... tbl_peminjaman" />
+            <marker date="1519284737000" expanded="true" signature="1479:1738" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519284737000" expanded="true" signature="1778:1892" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519284737000" expanded="true" signature="1778:2059" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519284737000" expanded="true" signature="1778:2114" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519284737000" expanded="true" signature="1778:2141" ph="SELECT * FRO... tbl_peminjaman" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/views/index.view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2535">
           <caret line="169" column="82" lean-forward="false" selection-start-line="169" selection-start-column="82" selection-end-line="169" selection-end-column="82" />
-          <folding>
-            <marker date="1519192570000" expanded="true" signature="1775:2731" ph="SELECT pinja... tbl_peminjaman" />
-            <marker date="1519192570000" expanded="true" signature="9297:10235" ph="SELECT pinja... tbl_peminjaman" />
-            <marker date="1519192570000" expanded="true" signature="11283:11432" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -264,7 +300,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -280,7 +315,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -288,9 +322,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="54" lean-forward="false" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
-          <folding>
-            <marker date="1519192570000" expanded="true" signature="326:1276" ph="SELECT pinja... tbl_peminjaman" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -298,11 +329,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2535">
           <caret line="169" column="82" lean-forward="false" selection-start-line="169" selection-start-column="82" selection-end-line="169" selection-end-column="82" />
-          <folding>
-            <marker date="1519192570000" expanded="true" signature="1775:2731" ph="SELECT pinja... tbl_peminjaman" />
-            <marker date="1519192570000" expanded="true" signature="9297:10235" ph="SELECT pinja... tbl_peminjaman" />
-            <marker date="1519192570000" expanded="true" signature="11283:11432" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -310,7 +336,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -326,7 +351,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -334,9 +358,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="54" lean-forward="false" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
-          <folding>
-            <marker date="1519192570000" expanded="true" signature="326:1276" ph="SELECT pinja... tbl_peminjaman" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -421,9 +442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="54" lean-forward="false" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
-          <folding>
-            <marker date="1519192570000" expanded="true" signature="326:1276" ph="SELECT pinja... tbl_peminjaman" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -431,7 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -439,11 +456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="169" column="82" lean-forward="false" selection-start-line="169" selection-start-column="82" selection-end-line="169" selection-end-column="82" />
-          <folding>
-            <marker date="1519192570000" expanded="true" signature="1775:2731" ph="SELECT pinja... tbl_peminjaman" />
-            <marker date="1519192570000" expanded="true" signature="9297:10235" ph="SELECT pinja... tbl_peminjaman" />
-            <marker date="1519192570000" expanded="true" signature="11283:11432" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -451,7 +463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -465,25 +476,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/model/Staff.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="141" lean-forward="false" selection-start-line="21" selection-start-column="141" selection-end-line="21" selection-end-column="141" />
+        <state relative-caret-position="585">
+          <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
           <folding>
-            <marker date="1519224322000" expanded="true" signature="227:459" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519224322000" expanded="true" signature="631:884" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519224322000" expanded="true" signature="1058:1312" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519284737000" expanded="true" signature="227:459" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519284737000" expanded="true" signature="631:884" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519284737000" expanded="true" signature="1058:1312" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519284737000" expanded="true" signature="1479:1711" ph="SELECT id_ru... tbl_peminjaman" />
+            <marker date="1519284737000" expanded="true" signature="1479:1738" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519284737000" expanded="true" signature="1778:1892" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519284737000" expanded="true" signature="1778:2059" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519284737000" expanded="true" signature="1778:2114" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519284737000" expanded="true" signature="1778:2141" ph="SELECT * FRO... tbl_peminjaman" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/staff/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        <state relative-caret-position="492">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
-            <marker date="1519224322000" expanded="true" signature="361:414" ph="SELECT * FRO... tbl_user" />
-            <marker date="1519224322000" expanded="true" signature="1024:1110" ph="select * fro... tbl_peminjaman" />
-            <marker date="1519224322000" expanded="true" signature="1203:1346" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519224322000" expanded="true" signature="1203:1375" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519302427000" expanded="true" signature="361:414" ph="SELECT * FRO... tbl_user" />
+            <marker date="1519302427000" expanded="true" signature="1024:1110" ph="select * fro... tbl_peminjaman" />
           </folding>
         </state>
       </provider>

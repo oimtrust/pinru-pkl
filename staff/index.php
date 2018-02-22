@@ -48,18 +48,16 @@ if (isset($_POST['btn_borrow'])) {
     } elseif ($keterangan == '') {
         $error[]    = "Keterangan masih kosong";
     } else {
-
-        $queryTime      = $staff->execute("SELECT * FROM tbl_peminjaman WHERE (jam_awal BETWEEN '{$jam_awal}' AND '{$jam_akhir}') OR (jam_akhir BETWEEN '{$jam_akhir}' AND '{$jam_akhir}') AND id_ruang = '{$id_ruang}'");
-        $checkTime      = $queryTime->fetch_object();
-
         //Logic in here --> accepted or denied of borrow
-        try {
-            if ($staff->createBorrow($id_user, $id_ruang, $id_hari, $tgl_pinjam, $jam_awal, $jam_akhir, $keterangan)) {
-            }
-            $staff->redirect($baseUrl . 'index.php?page=staff&action=home&success');
-        } catch (Exception $e) {
-            echo $e->getMessage();
-        }
+
+//
+//        try {
+//            if ($staff->createBorrow($id_user, $id_ruang, $id_hari, $tgl_pinjam, $jam_awal, $jam_akhir, $keterangan)) {
+//            }
+//            $staff->redirect($baseUrl . 'index.php?page=staff&action=home&success');
+//        } catch (Exception $e) {
+//            echo $e->getMessage();
+//        }
     }
 }
 
