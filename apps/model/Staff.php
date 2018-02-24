@@ -6,11 +6,19 @@ class Staff extends Connection
 {
 
     // From Ask MHS
-    public function validateRoom($id_ruang, $tgl_pinjam, $jam_awal, $jam_akhir) {
+    public function validateRoom($id_ruang, $id_hari, $tgl_pinjam, $jam_awal, $jam_akhir) {
         $jam_awal = date("H:i:s", strtotime("+1 minutes", strtotime($jam_awal)));
         $jam_akhir = date("H:i:s", strtotime("-1 minutes", strtotime($jam_akhir)));
 
-        $result = $this->db->query("SELECT * FROM tbl_peminjaman WHERE ((jam_awal BETWEEN '{$jam_awal}' AND '{$jam_akhir}') OR (jam_akhir BETWEEN '{$jam_awal}' AND '{$jam_akhir}')) AND tgl_pinjam = '{$tgl_pinjam}'");
+        $result = $this->db->query("SELECT * FROM tbl_peminjaman
+                WHERE 
+                (
+                  (jam_awal BETWEEN '{$jam_awal}' AND '{$jam_akhir}')
+                  OR
+                  (jam_akhir BETWEEN '{$jam_awal}' AND '{$jam_akhir}')
+                )
+                  AND
+                  tgl_pinjam = '{$tgl_pinjam}' AND id_hari = '{$id_hari}' AND id_ruang = '{$id_ruang}'");
         
         return $result->fetch_assoc();
     }
@@ -39,7 +47,7 @@ class Staff extends Connection
                 VALUES ('{$id_user}', '{$id_ruang}', '{$id_hari}', '{$tgl_pinjam}', '{$jam_awal}', '{$jam_akhir}', '{$keterangan}', 'DITERIMA')");
     }
 
-    public function checkCrashOfShedule($id_ruang, $id_hari, $jam_awal, $jam_akhir)
+    public function checkCrashOfShedule($id_ruang, $id_hari, $tgl_pinjam, $jam_awal, $jam_akhir)
     {
         $data   = array();
 
@@ -52,7 +60,7 @@ class Staff extends Connection
                             TIME(jam_awal) BETWEEN TIME('{$jam_awal}') AND TIME('{$jam_akhir}') OR
                             TIME(jam_akhir) BETWEEN TIME('{$jam_awal}') AND TIME ('{$jam_akhir}')
                           )
-                          AND id_ruang = '{$id_ruang}' AND id_hari = '{$id_hari}'");
+                          AND id_ruang = '{$id_ruang}' AND id_hari = '{$id_hari}' AND tgl_pinjam = '{$tgl_pinjam}'");
         while ($rows = $result->fetch_object()) {
             $data[]     = $rows;
         }
