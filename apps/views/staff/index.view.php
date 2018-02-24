@@ -49,7 +49,7 @@
                 ?>
                 <div class="row alert_box">
                     <div class="col s12">
-                        <div class="card green darken-2">
+                        <div class="card orange darken-2">
                             <div class="row">
                                 <div class="col s9">
                                     <div class="card-content white-text">
