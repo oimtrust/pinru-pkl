@@ -64,10 +64,8 @@ if (isset($_POST['btn_borrow'])) {
                 $staff->setRoomToUse($id_ruang);
                 $staff->redirect($baseUrl.'index.php?page=staff&action=home&accepted');
             } else {
-                if ($staff->redirect($baseUrl.'index.php?page=staff&action=home&denied')) {
-                    $staff->createBorrowDenied($id_user, $id_ruang, $id_hari, $tgl_pinjam, $jam_awal, $jam_akhir, $keterangan);
-                }
-//                echo "Ruang $id_ruang pada tanggal $tgl_pinjam antara jam $jam_awal sampai dengan jam $jam_akhir sedang terpakai.";
+                $staff->createBorrowDenied($id_user, $id_ruang, $id_hari, $tgl_pinjam, $jam_awal, $jam_akhir, $keterangan);
+                $staff->redirect($baseUrl.'index.php?page=staff&action=home&denied');
             }
         } catch (Exception $e) {
             echo $e->getMessage();
