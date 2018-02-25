@@ -56,34 +56,18 @@ if (isset($_POST['btn_borrow'])) {
 
     // From AskMHS
     $usedRooms = $staff->validateRoom($id_ruang, $id_hari, $tgl_pinjam, $jam_awal, $jam_akhir);
-//    $usedRooms = $staff->checkCrashOfShedule($id_ruang, $id_hari, $tgl_pinjam, $jam_awal, $jam_akhir);
-
-//    if ($usedRooms === NULL) {
-//        echo "Yay, anda bisa menempati ruangan!";
-//    } else {
-//        echo "Ruang $id_ruang pada tanggal $tgl_pinjam antara jam $jam_awal sampai dengan jam $jam_akhir sedang terpakai.";
-//    }
-
-    // Insert To DB
-//    try {
-//        $staff->borrowRoom($id_user, $id_ruang, $id_hari, $tgl_pinjam, $jam_awal, $jam_akhir, $keterangan);
-//        $staff->redirect($baseUrl . 'index.php?page=staff&action=home&success');
-//    } catch(Exception $e) {
-//        echo $e->getMessage();
-//    }
-
-
-        //Logic in here --> accepted or denied of borrow
 
 
         try {
             if ($usedRooms === NULL) {
                 $staff->createBorrowAccepted($id_user, $id_ruang, $id_hari, $tgl_pinjam, $jam_awal, $jam_akhir, $keterangan);
+                $staff->setRoomToUse($id_ruang);
                 $staff->redirect($baseUrl.'index.php?page=staff&action=home&accepted');
             } else {
+                if ($staff->redirect($baseUrl.'index.php?page=staff&action=home&denied')) {
+                    $staff->createBorrowDenied($id_user, $id_ruang, $id_hari, $tgl_pinjam, $jam_awal, $jam_akhir, $keterangan);
+                }
 //                echo "Ruang $id_ruang pada tanggal $tgl_pinjam antara jam $jam_awal sampai dengan jam $jam_akhir sedang terpakai.";
-                $staff->createBorrowDenied($id_user, $id_ruang, $id_hari, $tgl_pinjam, $jam_awal, $jam_akhir, $keterangan);
-                $staff->redirect($baseUrl.'index.php?page=staff&action=home&denied');
             }
         } catch (Exception $e) {
             echo $e->getMessage();
