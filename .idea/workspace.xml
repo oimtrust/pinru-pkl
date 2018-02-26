@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcc60ed8-bc8d-411e-8c2b-915b65c274a2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/apps/config/app.php" afterPath="$PROJECT_DIR$/apps/config/app.php" />
-      <change beforePath="$PROJECT_DIR$/apps/config/database.php" afterPath="$PROJECT_DIR$/apps/config/database.php" />
-      <change beforePath="$PROJECT_DIR$/apps/views/index.view.php" afterPath="$PROJECT_DIR$/apps/views/index.view.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/apps/model/Staff.php" afterPath="$PROJECT_DIR$/apps/model/Staff.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,25 +14,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home.php">
+      <file leaf-file-name="Staff.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/model/Staff.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.view.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/views/index.view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="211" column="64" lean-forward="false" selection-start-line="211" selection-start-column="64" selection-end-line="211" selection-end-column="64" />
+            <state relative-caret-position="369">
+              <caret line="42" column="242" lean-forward="false" selection-start-line="42" selection-start-column="242" selection-end-line="42" selection-end-column="242" />
               <folding>
-                <marker date="1519609301000" expanded="true" signature="1775:2731" ph="SELECT pinja... tbl_peminjaman" />
-                <marker date="1519609301000" expanded="true" signature="9297:10235" ph="SELECT pinja... tbl_peminjaman" />
-                <marker date="1519609301000" expanded="true" signature="11239:11388" ph="..." />
+                <marker date="1519629238000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
+                <marker date="1519629238000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
+                <marker date="1519629238000" expanded="true" signature="1380:1751" ph="INSERT INTO tbl_peminjaman... " />
+                <marker date="1519629238000" expanded="true" signature="1968:2331" ph="INSERT INTO tbl_peminjaman... " />
+                <marker date="1519629238000" expanded="true" signature="2428:2501" ph="UPDATE tbl_ruang... " />
               </folding>
             </state>
           </provider>
@@ -58,11 +49,11 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/detail.php" />
         <option value="$PROJECT_DIR$/apps/views/staff/index.view.php" />
-        <option value="$PROJECT_DIR$/apps/model/Staff.php" />
         <option value="$PROJECT_DIR$/staff/index.php" />
         <option value="$PROJECT_DIR$/apps/config/database.php" />
         <option value="$PROJECT_DIR$/apps/config/app.php" />
         <option value="$PROJECT_DIR$/apps/views/index.view.php" />
+        <option value="$PROJECT_DIR$/apps/model/Staff.php" />
       </list>
     </option>
   </component>
@@ -98,7 +89,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,24 +99,7 @@
             <path>
               <item name="pinru-pkl" type="b2602c69:ProjectViewProjectNode" />
               <item name="pinru-pkl" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="approve" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pinru-pkl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pinru-pkl" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="approve" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="inbox" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pinru-pkl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pinru-pkl" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pinru-pkl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pinru-pkl" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="pinru-pkl" type="b2602c69:ProjectViewProjectNode" />
@@ -134,29 +107,12 @@
               <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="model" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="pinru-pkl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pinru-pkl" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pinru-pkl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pinru-pkl" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="approve" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pinru-pkl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pinru-pkl" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="staff" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,18 +165,20 @@
       <workItem from="1519438130803" duration="3435000" />
       <workItem from="1519558390407" duration="4129000" />
       <workItem from="1519571639784" duration="285000" />
-      <workItem from="1519608205756" duration="862000" />
+      <workItem from="1519608205756" duration="948000" />
+      <workItem from="1519625980769" duration="29000" />
+      <workItem from="1519629078002" duration="161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20279000" />
+    <option name="totallyTimeSpent" value="20555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20529328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21101573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -255,10 +213,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="51" column="47" lean-forward="false" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
-          <folding>
-            <marker date="1519446585000" expanded="true" signature="4207:4267" ph="SELECT * FRO... tbl_ruang" />
-            <marker date="1519446585000" expanded="true" signature="5325:5382" ph="SELECT * FRO... tbl_hari" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -266,19 +220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <marker date="1519608922000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608922000" expanded="true" signature="1380:1751" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608922000" expanded="true" signature="1968:2222" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608922000" expanded="true" signature="2319:2392" ph="UPDATE tbl_ruang... " />
-            <marker date="1519608922000" expanded="true" signature="2577:2695" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2866" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2923" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2950" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2983" ph="SELECT * FRO... tbl_peminjaman" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -286,9 +227,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1519608922000" expanded="true" signature="406:459" ph="SELECT * FRO... tbl_user" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -296,10 +234,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="51" column="47" lean-forward="false" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
-          <folding>
-            <marker date="1519446585000" expanded="true" signature="4207:4267" ph="SELECT * FRO... tbl_ruang" />
-            <marker date="1519446585000" expanded="true" signature="5325:5382" ph="SELECT * FRO... tbl_hari" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -307,11 +241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2535">
           <caret line="169" column="82" lean-forward="false" selection-start-line="169" selection-start-column="82" selection-end-line="169" selection-end-column="82" />
-          <folding>
-            <marker date="1519609301000" expanded="true" signature="1775:2731" ph="SELECT pinja... tbl_peminjaman" />
-            <marker date="1519609301000" expanded="true" signature="9297:10235" ph="SELECT pinja... tbl_peminjaman" />
-            <marker date="1519609301000" expanded="true" signature="11239:11388" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -319,19 +248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <marker date="1519608922000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608922000" expanded="true" signature="1380:1751" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608922000" expanded="true" signature="1968:2222" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608922000" expanded="true" signature="2319:2392" ph="UPDATE tbl_ruang... " />
-            <marker date="1519608922000" expanded="true" signature="2577:2695" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2866" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2923" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2950" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2983" ph="SELECT * FRO... tbl_peminjaman" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -339,9 +255,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1519608922000" expanded="true" signature="406:459" ph="SELECT * FRO... tbl_user" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -349,19 +262,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding>
-            <marker date="1519608922000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608922000" expanded="true" signature="1380:1751" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608922000" expanded="true" signature="1968:2222" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608922000" expanded="true" signature="2319:2392" ph="UPDATE tbl_ruang... " />
-            <marker date="1519608922000" expanded="true" signature="2577:2695" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2866" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2923" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2950" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2983" ph="SELECT * FRO... tbl_peminjaman" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -369,9 +269,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1519608922000" expanded="true" signature="406:459" ph="SELECT * FRO... tbl_user" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -379,19 +276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding>
-            <marker date="1519608922000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608922000" expanded="true" signature="1380:1751" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608922000" expanded="true" signature="1968:2222" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608922000" expanded="true" signature="2319:2392" ph="UPDATE tbl_ruang... " />
-            <marker date="1519608922000" expanded="true" signature="2577:2695" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2866" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2923" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2950" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2983" ph="SELECT * FRO... tbl_peminjaman" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -399,9 +283,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1519608922000" expanded="true" signature="406:459" ph="SELECT * FRO... tbl_user" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -409,19 +290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding>
-            <marker date="1519608922000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608922000" expanded="true" signature="1380:1751" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608922000" expanded="true" signature="1968:2222" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608922000" expanded="true" signature="2319:2392" ph="UPDATE tbl_ruang... " />
-            <marker date="1519608922000" expanded="true" signature="2577:2695" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2866" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2923" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2950" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2983" ph="SELECT * FRO... tbl_peminjaman" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -429,9 +297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1519608922000" expanded="true" signature="406:459" ph="SELECT * FRO... tbl_user" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -439,7 +304,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -447,19 +311,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding>
-            <marker date="1519608922000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608922000" expanded="true" signature="1380:1751" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608922000" expanded="true" signature="1968:2222" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608922000" expanded="true" signature="2319:2392" ph="UPDATE tbl_ruang... " />
-            <marker date="1519608922000" expanded="true" signature="2577:2695" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2866" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2923" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2950" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2983" ph="SELECT * FRO... tbl_peminjaman" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -467,9 +318,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1519608922000" expanded="true" signature="406:459" ph="SELECT * FRO... tbl_user" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -477,19 +325,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="141" lean-forward="false" selection-start-line="21" selection-start-column="141" selection-end-line="21" selection-end-column="141" />
-          <folding>
-            <marker date="1519608922000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608922000" expanded="true" signature="1380:1751" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608922000" expanded="true" signature="1968:2222" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608922000" expanded="true" signature="2319:2392" ph="UPDATE tbl_ruang... " />
-            <marker date="1519608922000" expanded="true" signature="2577:2695" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2866" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2923" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2950" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2983" ph="SELECT * FRO... tbl_peminjaman" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -497,7 +332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -519,7 +353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -555,7 +388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -654,7 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -662,10 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="51" column="47" lean-forward="false" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
-          <folding>
-            <marker date="1519446585000" expanded="true" signature="4207:4267" ph="SELECT * FRO... tbl_ruang" />
-            <marker date="1519446585000" expanded="true" signature="5325:5382" ph="SELECT * FRO... tbl_hari" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -673,12 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <marker date="1519108828000" expanded="true" signature="180:289" ph="UPDATE tbl_peminjaman... " />
-            <marker date="1519108828000" expanded="true" signature="408:518" ph="UPDATE tbl_peminjaman... " />
-            <marker date="1519108828000" expanded="true" signature="615:688" ph="UPDATE tbl_ruang... " />
-            <marker date="1519108828000" expanded="true" signature="792:879" ph="UPDATE tbl_peminjaman... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,14 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1519108828000" expanded="true" signature="5395:6340" ph="SELECT pinja... tbl_peminjaman" />
-            <marker date="1519108828000" expanded="true" signature="6722:7834" ph="SELECT pinja... tbl_peminjaman" />
-            <marker date="1519108828000" expanded="true" signature="7927:9088" ph="SELECT pinja... tbl_peminjaman" />
-            <marker date="1519108828000" expanded="true" signature="9219:10164" ph="SELECT pinja... tbl_peminjaman" />
-            <marker date="1519108828000" expanded="true" signature="12921:13848" ph="SELECT pinja... tbl_peminjaman" />
-            <marker date="1519108828000" expanded="true" signature="14842:14991" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -701,10 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="14" lean-forward="false" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-          <folding>
-            <marker date="1519108828000" expanded="true" signature="463:518" ph="SELECT * FRO... tbl_admin" />
-            <marker date="1519108828000" expanded="true" signature="660:1639" ph="SELECT pinja... tbl_peminjaman" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -712,29 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
           <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding>
-            <marker date="1519608922000" expanded="true" signature="406:459" ph="SELECT * FRO... tbl_user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/model/Staff.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-          <folding>
-            <marker date="1519608922000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608922000" expanded="true" signature="1380:1751" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608922000" expanded="true" signature="1968:2222" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608922000" expanded="true" signature="2319:2392" ph="UPDATE tbl_ruang... " />
-            <marker date="1519608922000" expanded="true" signature="2577:2695" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2866" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2923" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2950" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608922000" expanded="true" signature="2577:2983" ph="SELECT * FRO... tbl_peminjaman" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -750,7 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -758,7 +543,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/views/index.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3165">
+          <caret line="211" column="64" lean-forward="false" selection-start-line="211" selection-start-column="64" selection-end-line="211" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -770,14 +561,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/views/index.view.php">
+    <entry file="file://$PROJECT_DIR$/apps/model/Staff.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="211" column="64" lean-forward="false" selection-start-line="211" selection-start-column="64" selection-end-line="211" selection-end-column="64" />
+        <state relative-caret-position="369">
+          <caret line="42" column="242" lean-forward="false" selection-start-line="42" selection-start-column="242" selection-end-line="42" selection-end-column="242" />
           <folding>
-            <marker date="1519609301000" expanded="true" signature="1775:2731" ph="SELECT pinja... tbl_peminjaman" />
-            <marker date="1519609301000" expanded="true" signature="9297:10235" ph="SELECT pinja... tbl_peminjaman" />
-            <marker date="1519609301000" expanded="true" signature="11239:11388" ph="..." />
+            <marker date="1519629238000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519629238000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519629238000" expanded="true" signature="1380:1751" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519629238000" expanded="true" signature="1968:2331" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519629238000" expanded="true" signature="2428:2501" ph="UPDATE tbl_ruang... " />
           </folding>
         </state>
       </provider>
