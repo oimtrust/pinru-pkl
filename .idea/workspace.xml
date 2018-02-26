@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcc60ed8-bc8d-411e-8c2b-915b65c274a2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/apps/config/app.php" afterPath="$PROJECT_DIR$/apps/config/app.php" />
       <change beforePath="$PROJECT_DIR$/apps/config/database.php" afterPath="$PROJECT_DIR$/apps/config/database.php" />
-      <change beforePath="$PROJECT_DIR$/apps/model/Staff.php" afterPath="$PROJECT_DIR$/apps/model/Staff.php" />
-      <change beforePath="$PROJECT_DIR$/staff/index.php" afterPath="$PROJECT_DIR$/staff/index.php" />
+      <change beforePath="$PROJECT_DIR$/apps/views/index.view.php" afterPath="$PROJECT_DIR$/apps/views/index.view.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,107 +15,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/staff/index.php">
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-              <folding>
-                <marker date="1519608922000" expanded="true" signature="406:459" ph="SELECT * FRO... tbl_user" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="accepted.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/approve/inbox/accepted.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="14" lean-forward="false" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-              <folding>
-                <marker date="1519108828000" expanded="true" signature="463:518" ph="SELECT * FRO... tbl_admin" />
-                <marker date="1519108828000" expanded="true" signature="660:1639" ph="SELECT pinja... tbl_peminjaman" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.view.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/views/staff/history/index.view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1519108828000" expanded="true" signature="5395:6340" ph="SELECT pinja... tbl_peminjaman" />
-                <marker date="1519108828000" expanded="true" signature="6722:7834" ph="SELECT pinja... tbl_peminjaman" />
-                <marker date="1519108828000" expanded="true" signature="7927:9088" ph="SELECT pinja... tbl_peminjaman" />
-                <marker date="1519108828000" expanded="true" signature="9219:10164" ph="SELECT pinja... tbl_peminjaman" />
-                <marker date="1519108828000" expanded="true" signature="12921:13848" ph="SELECT pinja... tbl_peminjaman" />
-                <marker date="1519108828000" expanded="true" signature="14842:14991" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Approve.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/model/Approve.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <marker date="1519108828000" expanded="true" signature="180:289" ph="UPDATE tbl_peminjaman... " />
-                <marker date="1519108828000" expanded="true" signature="408:518" ph="UPDATE tbl_peminjaman... " />
-                <marker date="1519108828000" expanded="true" signature="615:688" ph="UPDATE tbl_ruang... " />
-                <marker date="1519108828000" expanded="true" signature="792:879" ph="UPDATE tbl_peminjaman... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.view.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.view.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/views/index.view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2535">
-              <caret line="169" column="82" lean-forward="false" selection-start-line="169" selection-start-column="82" selection-end-line="169" selection-end-column="82" />
+            <state relative-caret-position="132">
+              <caret line="211" column="64" lean-forward="false" selection-start-line="211" selection-start-column="64" selection-end-line="211" selection-end-column="64" />
               <folding>
-                <marker date="1519192570000" expanded="true" signature="1775:2731" ph="SELECT pinja... tbl_peminjaman" />
-                <marker date="1519192570000" expanded="true" signature="9297:10235" ph="SELECT pinja... tbl_peminjaman" />
-                <marker date="1519192570000" expanded="true" signature="11283:11432" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.view.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/views/staff/index.view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="47" lean-forward="false" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
-              <folding>
-                <marker date="1519446585000" expanded="true" signature="4207:4267" ph="SELECT * FRO... tbl_ruang" />
-                <marker date="1519446585000" expanded="true" signature="5325:5382" ph="SELECT * FRO... tbl_hari" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Staff.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/model/Staff.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-              <folding>
-                <marker date="1519608922000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
-                <marker date="1519608922000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
-                <marker date="1519608922000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
-                <marker date="1519608922000" expanded="true" signature="1380:1751" ph="INSERT INTO tbl_peminjaman... " />
-                <marker date="1519608922000" expanded="true" signature="1968:2222" ph="INSERT INTO tbl_peminjaman... " />
-                <marker date="1519608922000" expanded="true" signature="2319:2392" ph="UPDATE tbl_ruang... " />
-                <marker date="1519608922000" expanded="true" signature="2577:2695" ph="SELECT * FRO... tbl_peminjaman" />
-                <marker date="1519608922000" expanded="true" signature="2577:2866" ph="SELECT * FRO... tbl_peminjaman" />
-                <marker date="1519608922000" expanded="true" signature="2577:2923" ph="SELECT * FRO... tbl_peminjaman" />
-                <marker date="1519608922000" expanded="true" signature="2577:2950" ph="SELECT * FRO... tbl_peminjaman" />
-                <marker date="1519608922000" expanded="true" signature="2577:2983" ph="SELECT * FRO... tbl_peminjaman" />
+                <marker date="1519609301000" expanded="true" signature="1775:2731" ph="SELECT pinja... tbl_peminjaman" />
+                <marker date="1519609301000" expanded="true" signature="9297:10235" ph="SELECT pinja... tbl_peminjaman" />
+                <marker date="1519609301000" expanded="true" signature="11239:11388" ph="..." />
               </folding>
             </state>
           </provider>
@@ -136,17 +52,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/apps/config/database.php" />
-        <option value="$PROJECT_DIR$/apps/config/app.php" />
         <option value="$PROJECT_DIR$/apps/views/detail.view.php" />
         <option value="$PROJECT_DIR$/apps/views/menu.view.php" />
         <option value="$PROJECT_DIR$/home.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/apps/views/index.view.php" />
         <option value="$PROJECT_DIR$/detail.php" />
         <option value="$PROJECT_DIR$/apps/views/staff/index.view.php" />
         <option value="$PROJECT_DIR$/apps/model/Staff.php" />
         <option value="$PROJECT_DIR$/staff/index.php" />
+        <option value="$PROJECT_DIR$/apps/config/database.php" />
+        <option value="$PROJECT_DIR$/apps/config/app.php" />
+        <option value="$PROJECT_DIR$/apps/views/index.view.php" />
       </list>
     </option>
   </component>
@@ -210,6 +126,12 @@
               <item name="pinru-pkl" type="b2602c69:ProjectViewProjectNode" />
               <item name="pinru-pkl" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pinru-pkl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinru-pkl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="model" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -224,21 +146,6 @@
               <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="approve" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pinru-pkl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pinru-pkl" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="staff" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="pinru-pkl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pinru-pkl" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="staff" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="history" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="pinru-pkl" type="b2602c69:ProjectViewProjectNode" />
@@ -302,12 +209,12 @@
       <workItem from="1519438130803" duration="3435000" />
       <workItem from="1519558390407" duration="4129000" />
       <workItem from="1519571639784" duration="285000" />
-      <workItem from="1519608205756" duration="535000" />
+      <workItem from="1519608205756" duration="862000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19952000" />
+    <option name="totallyTimeSpent" value="20279000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -344,18 +251,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/views/index.view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2535">
-          <caret line="169" column="82" lean-forward="false" selection-start-line="169" selection-start-column="82" selection-end-line="169" selection-end-column="82" />
-          <folding>
-            <marker date="1519192570000" expanded="true" signature="1775:2731" ph="SELECT pinja... tbl_peminjaman" />
-            <marker date="1519192570000" expanded="true" signature="9297:10235" ph="SELECT pinja... tbl_peminjaman" />
-            <marker date="1519192570000" expanded="true" signature="11283:11432" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/views/staff/index.view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -413,9 +308,9 @@
         <state relative-caret-position="2535">
           <caret line="169" column="82" lean-forward="false" selection-start-line="169" selection-start-column="82" selection-end-line="169" selection-end-column="82" />
           <folding>
-            <marker date="1519192570000" expanded="true" signature="1775:2731" ph="SELECT pinja... tbl_peminjaman" />
-            <marker date="1519192570000" expanded="true" signature="9297:10235" ph="SELECT pinja... tbl_peminjaman" />
-            <marker date="1519192570000" expanded="true" signature="11283:11432" ph="..." />
+            <marker date="1519609301000" expanded="true" signature="1775:2731" ph="SELECT pinja... tbl_peminjaman" />
+            <marker date="1519609301000" expanded="true" signature="9297:10235" ph="SELECT pinja... tbl_peminjaman" />
+            <marker date="1519609301000" expanded="true" signature="11239:11388" ph="..." />
           </folding>
         </state>
       </provider>
@@ -706,20 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/views/admin/menu.view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -769,13 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -791,18 +665,6 @@
           <folding>
             <marker date="1519446585000" expanded="true" signature="4207:4267" ph="SELECT * FRO... tbl_ruang" />
             <marker date="1519446585000" expanded="true" signature="5325:5382" ph="SELECT * FRO... tbl_hari" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/views/index.view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2535">
-          <caret line="169" column="82" lean-forward="false" selection-start-line="169" selection-start-column="82" selection-end-line="169" selection-end-column="82" />
-          <folding>
-            <marker date="1519192570000" expanded="true" signature="1775:2731" ph="SELECT pinja... tbl_peminjaman" />
-            <marker date="1519192570000" expanded="true" signature="9297:10235" ph="SELECT pinja... tbl_peminjaman" />
-            <marker date="1519192570000" expanded="true" signature="11283:11432" ph="..." />
           </folding>
         </state>
       </provider>
@@ -872,6 +734,50 @@
             <marker date="1519608922000" expanded="true" signature="2577:2923" ph="SELECT * FRO... tbl_peminjaman" />
             <marker date="1519608922000" expanded="true" signature="2577:2950" ph="SELECT * FRO... tbl_peminjaman" />
             <marker date="1519608922000" expanded="true" signature="2577:2983" ph="SELECT * FRO... tbl_peminjaman" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/model/Connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/views/index.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="211" column="64" lean-forward="false" selection-start-line="211" selection-start-column="64" selection-end-line="211" selection-end-column="64" />
+          <folding>
+            <marker date="1519609301000" expanded="true" signature="1775:2731" ph="SELECT pinja... tbl_peminjaman" />
+            <marker date="1519609301000" expanded="true" signature="9297:10235" ph="SELECT pinja... tbl_peminjaman" />
+            <marker date="1519609301000" expanded="true" signature="11239:11388" ph="..." />
           </folding>
         </state>
       </provider>
