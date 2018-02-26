@@ -66,7 +66,9 @@ if (isset($_POST['btn_borrow'])) {
             } else {
                 $staff->createBorrowDenied($id_user, $id_ruang, $id_hari, $tgl_pinjam, $jam_awal, $jam_akhir, $keterangan);
                 $staff->redirect($baseUrl.'index.php?page=staff&action=home&denied');
+
 //                echo "Ruang $id_ruang pada tanggal $tgl_pinjam antara jam $jam_awal sampai dengan jam $jam_akhir sedang terpakai.";
+
             }
         } catch (Exception $e) {
             echo $e->getMessage();

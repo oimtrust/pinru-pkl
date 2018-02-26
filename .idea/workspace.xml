@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bcc60ed8-bc8d-411e-8c2b-915b65c274a2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/apps/config/app.php" afterPath="$PROJECT_DIR$/apps/config/app.php" />
+      <change beforePath="$PROJECT_DIR$/apps/config/database.php" afterPath="$PROJECT_DIR$/apps/config/database.php" />
       <change beforePath="$PROJECT_DIR$/apps/model/Staff.php" afterPath="$PROJECT_DIR$/apps/model/Staff.php" />
       <change beforePath="$PROJECT_DIR$/staff/index.php" afterPath="$PROJECT_DIR$/staff/index.php" />
     </list>
@@ -18,10 +20,10 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/staff/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="35" column="43" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+            <state relative-caret-position="1050">
+              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding>
-                <marker date="1519568356000" expanded="true" signature="406:459" ph="SELECT * FRO... tbl_user" />
+                <marker date="1519608922000" expanded="true" signature="406:459" ph="SELECT * FRO... tbl_user" />
               </folding>
             </state>
           </provider>
@@ -102,21 +104,20 @@
       <file leaf-file-name="Staff.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/model/Staff.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="40" column="239" lean-forward="false" selection-start-line="40" selection-start-column="239" selection-end-line="40" selection-end-column="239" />
+            <state relative-caret-position="504">
+              <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
               <folding>
-                <marker date="1519608499000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
-                <marker date="1519608499000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
-                <marker date="1519608499000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
-                <marker date="1519608499000" expanded="true" signature="1391:1623" ph="INSERT INTO tbl_peminjaman... " />
-                <marker date="1519608499000" expanded="true" signature="1777:2137" ph="INSERT INTO tbl_peminjaman... " />
-                <marker date="1519608499000" expanded="true" signature="2354:2608" ph="INSERT INTO tbl_peminjaman... " />
-                <marker date="1519608499000" expanded="true" signature="2705:2778" ph="UPDATE tbl_ruang... " />
-                <marker date="1519608499000" expanded="true" signature="2963:3081" ph="SELECT * FRO... tbl_peminjaman" />
-                <marker date="1519608499000" expanded="true" signature="2963:3252" ph="SELECT * FRO... tbl_peminjaman" />
-                <marker date="1519608499000" expanded="true" signature="2963:3309" ph="SELECT * FRO... tbl_peminjaman" />
-                <marker date="1519608499000" expanded="true" signature="2963:3336" ph="SELECT * FRO... tbl_peminjaman" />
-                <marker date="1519608499000" expanded="true" signature="2963:3369" ph="SELECT * FRO... tbl_peminjaman" />
+                <marker date="1519608922000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
+                <marker date="1519608922000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
+                <marker date="1519608922000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
+                <marker date="1519608922000" expanded="true" signature="1380:1751" ph="INSERT INTO tbl_peminjaman... " />
+                <marker date="1519608922000" expanded="true" signature="1968:2222" ph="INSERT INTO tbl_peminjaman... " />
+                <marker date="1519608922000" expanded="true" signature="2319:2392" ph="UPDATE tbl_ruang... " />
+                <marker date="1519608922000" expanded="true" signature="2577:2695" ph="SELECT * FRO... tbl_peminjaman" />
+                <marker date="1519608922000" expanded="true" signature="2577:2866" ph="SELECT * FRO... tbl_peminjaman" />
+                <marker date="1519608922000" expanded="true" signature="2577:2923" ph="SELECT * FRO... tbl_peminjaman" />
+                <marker date="1519608922000" expanded="true" signature="2577:2950" ph="SELECT * FRO... tbl_peminjaman" />
+                <marker date="1519608922000" expanded="true" signature="2577:2983" ph="SELECT * FRO... tbl_peminjaman" />
               </folding>
             </state>
           </provider>
@@ -144,8 +145,8 @@
         <option value="$PROJECT_DIR$/apps/views/index.view.php" />
         <option value="$PROJECT_DIR$/detail.php" />
         <option value="$PROJECT_DIR$/apps/views/staff/index.view.php" />
-        <option value="$PROJECT_DIR$/staff/index.php" />
         <option value="$PROJECT_DIR$/apps/model/Staff.php" />
+        <option value="$PROJECT_DIR$/staff/index.php" />
       </list>
     </option>
   </component>
@@ -301,12 +302,12 @@
       <workItem from="1519438130803" duration="3435000" />
       <workItem from="1519558390407" duration="4129000" />
       <workItem from="1519571639784" duration="285000" />
-      <workItem from="1519608205756" duration="180000" />
+      <workItem from="1519608205756" duration="535000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19597000" />
+    <option name="totallyTimeSpent" value="19952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -371,18 +372,17 @@
         <state relative-caret-position="570">
           <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
-            <marker date="1519608499000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="1391:1623" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="1777:2137" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="2354:2608" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="2705:2778" ph="UPDATE tbl_ruang... " />
-            <marker date="1519608499000" expanded="true" signature="2963:3081" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3252" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3309" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3336" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3369" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519608922000" expanded="true" signature="1380:1751" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519608922000" expanded="true" signature="1968:2222" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519608922000" expanded="true" signature="2319:2392" ph="UPDATE tbl_ruang... " />
+            <marker date="1519608922000" expanded="true" signature="2577:2695" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2866" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2923" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2950" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2983" ph="SELECT * FRO... tbl_peminjaman" />
           </folding>
         </state>
       </provider>
@@ -392,7 +392,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1519568356000" expanded="true" signature="406:459" ph="SELECT * FRO... tbl_user" />
+            <marker date="1519608922000" expanded="true" signature="406:459" ph="SELECT * FRO... tbl_user" />
           </folding>
         </state>
       </provider>
@@ -425,18 +425,17 @@
         <state relative-caret-position="360">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <marker date="1519608499000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="1391:1623" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="1777:2137" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="2354:2608" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="2705:2778" ph="UPDATE tbl_ruang... " />
-            <marker date="1519608499000" expanded="true" signature="2963:3081" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3252" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3309" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3336" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3369" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519608922000" expanded="true" signature="1380:1751" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519608922000" expanded="true" signature="1968:2222" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519608922000" expanded="true" signature="2319:2392" ph="UPDATE tbl_ruang... " />
+            <marker date="1519608922000" expanded="true" signature="2577:2695" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2866" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2923" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2950" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2983" ph="SELECT * FRO... tbl_peminjaman" />
           </folding>
         </state>
       </provider>
@@ -446,7 +445,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1519568356000" expanded="true" signature="406:459" ph="SELECT * FRO... tbl_user" />
+            <marker date="1519608922000" expanded="true" signature="406:459" ph="SELECT * FRO... tbl_user" />
           </folding>
         </state>
       </provider>
@@ -456,18 +455,17 @@
         <state relative-caret-position="585">
           <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
           <folding>
-            <marker date="1519608499000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="1391:1623" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="1777:2137" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="2354:2608" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="2705:2778" ph="UPDATE tbl_ruang... " />
-            <marker date="1519608499000" expanded="true" signature="2963:3081" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3252" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3309" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3336" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3369" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519608922000" expanded="true" signature="1380:1751" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519608922000" expanded="true" signature="1968:2222" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519608922000" expanded="true" signature="2319:2392" ph="UPDATE tbl_ruang... " />
+            <marker date="1519608922000" expanded="true" signature="2577:2695" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2866" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2923" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2950" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2983" ph="SELECT * FRO... tbl_peminjaman" />
           </folding>
         </state>
       </provider>
@@ -477,7 +475,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1519568356000" expanded="true" signature="406:459" ph="SELECT * FRO... tbl_user" />
+            <marker date="1519608922000" expanded="true" signature="406:459" ph="SELECT * FRO... tbl_user" />
           </folding>
         </state>
       </provider>
@@ -487,18 +485,17 @@
         <state relative-caret-position="585">
           <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
           <folding>
-            <marker date="1519608499000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="1391:1623" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="1777:2137" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="2354:2608" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="2705:2778" ph="UPDATE tbl_ruang... " />
-            <marker date="1519608499000" expanded="true" signature="2963:3081" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3252" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3309" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3336" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3369" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519608922000" expanded="true" signature="1380:1751" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519608922000" expanded="true" signature="1968:2222" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519608922000" expanded="true" signature="2319:2392" ph="UPDATE tbl_ruang... " />
+            <marker date="1519608922000" expanded="true" signature="2577:2695" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2866" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2923" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2950" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2983" ph="SELECT * FRO... tbl_peminjaman" />
           </folding>
         </state>
       </provider>
@@ -508,7 +505,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1519568356000" expanded="true" signature="406:459" ph="SELECT * FRO... tbl_user" />
+            <marker date="1519608922000" expanded="true" signature="406:459" ph="SELECT * FRO... tbl_user" />
           </folding>
         </state>
       </provider>
@@ -518,18 +515,17 @@
         <state relative-caret-position="585">
           <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
           <folding>
-            <marker date="1519608499000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="1391:1623" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="1777:2137" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="2354:2608" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="2705:2778" ph="UPDATE tbl_ruang... " />
-            <marker date="1519608499000" expanded="true" signature="2963:3081" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3252" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3309" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3336" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3369" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519608922000" expanded="true" signature="1380:1751" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519608922000" expanded="true" signature="1968:2222" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519608922000" expanded="true" signature="2319:2392" ph="UPDATE tbl_ruang... " />
+            <marker date="1519608922000" expanded="true" signature="2577:2695" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2866" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2923" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2950" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2983" ph="SELECT * FRO... tbl_peminjaman" />
           </folding>
         </state>
       </provider>
@@ -539,7 +535,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1519568356000" expanded="true" signature="406:459" ph="SELECT * FRO... tbl_user" />
+            <marker date="1519608922000" expanded="true" signature="406:459" ph="SELECT * FRO... tbl_user" />
           </folding>
         </state>
       </provider>
@@ -557,18 +553,17 @@
         <state relative-caret-position="585">
           <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
           <folding>
-            <marker date="1519608499000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="1391:1623" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="1777:2137" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="2354:2608" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="2705:2778" ph="UPDATE tbl_ruang... " />
-            <marker date="1519608499000" expanded="true" signature="2963:3081" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3252" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3309" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3336" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3369" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519608922000" expanded="true" signature="1380:1751" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519608922000" expanded="true" signature="1968:2222" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519608922000" expanded="true" signature="2319:2392" ph="UPDATE tbl_ruang... " />
+            <marker date="1519608922000" expanded="true" signature="2577:2695" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2866" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2923" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2950" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2983" ph="SELECT * FRO... tbl_peminjaman" />
           </folding>
         </state>
       </provider>
@@ -578,7 +573,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1519568356000" expanded="true" signature="406:459" ph="SELECT * FRO... tbl_user" />
+            <marker date="1519608922000" expanded="true" signature="406:459" ph="SELECT * FRO... tbl_user" />
           </folding>
         </state>
       </provider>
@@ -588,18 +583,17 @@
         <state relative-caret-position="315">
           <caret line="21" column="141" lean-forward="false" selection-start-line="21" selection-start-column="141" selection-end-line="21" selection-end-column="141" />
           <folding>
-            <marker date="1519608499000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="1391:1623" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="1777:2137" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="2354:2608" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="2705:2778" ph="UPDATE tbl_ruang... " />
-            <marker date="1519608499000" expanded="true" signature="2963:3081" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3252" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3309" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3336" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3369" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519608922000" expanded="true" signature="1380:1751" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519608922000" expanded="true" signature="1968:2222" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519608922000" expanded="true" signature="2319:2392" ph="UPDATE tbl_ruang... " />
+            <marker date="1519608922000" expanded="true" signature="2577:2695" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2866" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2923" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2950" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2983" ph="SELECT * FRO... tbl_peminjaman" />
           </folding>
         </state>
       </provider>
@@ -854,31 +848,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/staff/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="35" column="43" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        <state relative-caret-position="1050">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding>
-            <marker date="1519568356000" expanded="true" signature="406:459" ph="SELECT * FRO... tbl_user" />
+            <marker date="1519608922000" expanded="true" signature="406:459" ph="SELECT * FRO... tbl_user" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/model/Staff.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="40" column="239" lean-forward="false" selection-start-line="40" selection-start-column="239" selection-end-line="40" selection-end-column="239" />
+        <state relative-caret-position="504">
+          <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
           <folding>
-            <marker date="1519608499000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="1391:1623" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="1777:2137" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="2354:2608" ph="INSERT INTO tbl_peminjaman... " />
-            <marker date="1519608499000" expanded="true" signature="2705:2778" ph="UPDATE tbl_ruang... " />
-            <marker date="1519608499000" expanded="true" signature="2963:3081" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3252" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3309" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3336" ph="SELECT * FRO... tbl_peminjaman" />
-            <marker date="1519608499000" expanded="true" signature="2963:3369" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="388:733" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519608922000" expanded="true" signature="1380:1751" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519608922000" expanded="true" signature="1968:2222" ph="INSERT INTO tbl_peminjaman... " />
+            <marker date="1519608922000" expanded="true" signature="2319:2392" ph="UPDATE tbl_ruang... " />
+            <marker date="1519608922000" expanded="true" signature="2577:2695" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2866" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2923" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2950" ph="SELECT * FRO... tbl_peminjaman" />
+            <marker date="1519608922000" expanded="true" signature="2577:2983" ph="SELECT * FRO... tbl_peminjaman" />
           </folding>
         </state>
       </provider>

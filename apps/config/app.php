@@ -3,4 +3,4 @@
 if (!defined('RESTRICTED')) exit('No direct script access allowed!');
 
 /** @var HOST_URL $baseUrl */
-$baseUrl = 'http://localhost:3030/';
+$baseUrl = 'http://project.dev/pinru/';
