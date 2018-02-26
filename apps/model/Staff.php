@@ -37,8 +37,9 @@ class Staff extends Connection
 
     public function createBorrowDenied($id_user, $id_ruang, $id_hari, $tgl_pinjam, $jam_awal, $jam_akhir, $keterangan)
     {
-        $result = $this->db->query("INSERT INTO tbl_peminjaman (id_user, id_ruang, id_hari, tgl_pinjam, jam_awal, jam_akhir, keterangan, `status`)
-                VALUES ('{$id_user}', '{$id_ruang}', '{$id_hari}', '{$tgl_pinjam}', '{$jam_awal}', '{$jam_akhir}', '{$keterangan}', 'Ruang yang anda pesan pada tanggal dan jam tersebut sedang dipakai')");
+        $query = "INSERT INTO tbl_peminjaman (id_user, id_ruang, id_hari, tgl_pinjam, jam_awal, jam_akhir, keterangan, `status`, alasan)
+       VALUES ('{$id_user}', '{$id_ruang}', '{$id_hari}', '{$tgl_pinjam}', '{$jam_awal}', '{$jam_akhir}', '{$keterangan}', 'DITOLAK', 'Peminjaman anda pada tanggal $tgl_pinjam dan antara jam $jam_awal hingga $jam_akhir ruang masih terpakai')";
+        $result = $this->db->query($query);
     }
 
     public function createBorrowAccepted($id_user, $id_ruang, $id_hari, $tgl_pinjam, $jam_awal, $jam_akhir, $keterangan)
