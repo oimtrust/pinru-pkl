@@ -5,7 +5,6 @@
                 <div class="card">
                     <div class="card-content">
                         <span class="card-title">Keterangan : </span>
-                        <span class="yellow-text">Warna Kuning : Peminjaman Menunggu</span> <br/>
                         <span class="green-text">Warna Hijau : Peminjaman Diterima</span> <br/>
                         <span class="red-text">Warna Merah : Peminjaman Ditolak</span> <br/>
                         <span class="grey-text">Warna Abu-Abu : Peminjaman Selesai</span>

@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bcc60ed8-bc8d-411e-8c2b-915b65c274a2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/apps/model/Staff.php" afterPath="$PROJECT_DIR$/apps/model/Staff.php" />
+      <change beforePath="$PROJECT_DIR$/apps/views/index.view.php" afterPath="$PROJECT_DIR$/apps/views/index.view.php" />
+      <change beforePath="$PROJECT_DIR$/apps/views/layouts/header.view.php" afterPath="$PROJECT_DIR$/apps/views/layouts/header.view.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,18 +15,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Staff.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/model/Staff.php">
+      <file leaf-file-name="header.view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/views/layouts/header.view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="42" column="242" lean-forward="false" selection-start-line="42" selection-start-column="242" selection-end-line="42" selection-end-column="242" />
-              <folding>
-                <marker date="1519629238000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
-                <marker date="1519629238000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
-                <marker date="1519629238000" expanded="true" signature="1380:1751" ph="INSERT INTO tbl_peminjaman... " />
-                <marker date="1519629238000" expanded="true" signature="1968:2331" ph="INSERT INTO tbl_peminjaman... " />
-                <marker date="1519629238000" expanded="true" signature="2428:2501" ph="UPDATE tbl_ruang... " />
-              </folding>
+            <state relative-caret-position="540">
+              <caret line="36" column="102" lean-forward="false" selection-start-line="36" selection-start-column="102" selection-end-line="36" selection-end-column="102" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/config/app.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,8 +57,9 @@
         <option value="$PROJECT_DIR$/staff/index.php" />
         <option value="$PROJECT_DIR$/apps/config/database.php" />
         <option value="$PROJECT_DIR$/apps/config/app.php" />
-        <option value="$PROJECT_DIR$/apps/views/index.view.php" />
         <option value="$PROJECT_DIR$/apps/model/Staff.php" />
+        <option value="$PROJECT_DIR$/apps/views/index.view.php" />
+        <option value="$PROJECT_DIR$/apps/views/layouts/header.view.php" />
       </list>
     </option>
   </component>
@@ -105,7 +111,38 @@
               <item name="pinru-pkl" type="b2602c69:ProjectViewProjectNode" />
               <item name="pinru-pkl" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="model" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pinru-pkl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinru-pkl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pinru-pkl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinru-pkl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pinru-pkl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinru-pkl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pinru-pkl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinru-pkl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sweetalert-1.1.3" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="pinru-pkl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinru-pkl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sweetalert-1.1.3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -167,28 +204,30 @@
       <workItem from="1519571639784" duration="285000" />
       <workItem from="1519608205756" duration="948000" />
       <workItem from="1519625980769" duration="29000" />
-      <workItem from="1519629078002" duration="161000" />
+      <workItem from="1519629078002" duration="352000" />
+      <workItem from="1519632333767" duration="289000" />
+      <workItem from="1520216864284" duration="31000" />
+      <workItem from="1520391751408" duration="1725000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20555000" />
+    <option name="totallyTimeSpent" value="22791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21101573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21959943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39903265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -209,13 +248,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/views/staff/index.view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="47" lean-forward="false" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/model/Staff.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -532,13 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -546,25 +571,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/views/index.view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3165">
-          <caret line="211" column="64" lean-forward="false" selection-start-line="211" selection-start-column="64" selection-end-line="211" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/views/index.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="6" column="69" lean-forward="false" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+          <folding>
+            <marker date="1519632351000" expanded="true" signature="1677:2633" ph="SELECT pinja... tbl_peminjaman" />
+            <marker date="1519632351000" expanded="true" signature="9199:10137" ph="SELECT pinja... tbl_peminjaman" />
+            <marker date="1519632351000" expanded="true" signature="11141:11290" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/model/Staff.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="42" column="242" lean-forward="false" selection-start-line="42" selection-start-column="242" selection-end-line="42" selection-end-column="242" />
+        <state relative-caret-position="285">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding>
             <marker date="1519629238000" expanded="true" signature="388:762" ph="SELECT * FRO... tbl_peminjaman" />
             <marker date="1519629238000" expanded="true" signature="970:1202" ph="INSERT INTO tbl_peminjaman... " />
@@ -572,6 +601,22 @@
             <marker date="1519629238000" expanded="true" signature="1968:2331" ph="INSERT INTO tbl_peminjaman... " />
             <marker date="1519629238000" expanded="true" signature="2428:2501" ph="UPDATE tbl_ruang... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/views/layouts/header.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="102" lean-forward="false" selection-start-line="36" selection-start-column="102" selection-end-line="36" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
